@@ -60,7 +60,11 @@ ModelImporter:
     7400008: Walk
     7400010: Walk_002
     7400012: Run0
-    7400014: Single_Slash
+    7400014: Slash1
+    7400016: Slash1R
+    7400018: Slash2
+    7400020: Slash2R
+    7400022: TripleSlash
     9500000: //RootNode
     13700000: objMF000F
   materials:
@@ -80,6 +84,12 @@ ModelImporter:
       be discarded.\n\t'Lower_Leg_L' has scale animation that will be discarded.\n\t'Foot_L'
       has scale animation that will be discarded.\n\t'Upper_Leg_R' has scale animation
       that will be discarded.\n\t'Lower_Leg_R' has scale animation that will be discarded.\n\t'Foot_R'
+      has scale animation that will be discarded.\n\nClip 'DoubleSlash' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'Upper_Leg_L' has scale animation
+      that will be discarded.\n\t'Lower_Leg_L' has scale animation that will be discarded.\n\t'Foot_L'
+      has scale animation that will be discarded.\n\t'Upper_Leg_R' has scale animation
+      that will be discarded.\n\t'Lower_Leg_R' has scale animation that will be discarded.\n\t'Foot_R'
       has scale animation that will be discarded.\n\nClip 'Run' has import animation
       warnings that might lower retargeting quality:\nNote: Activate translation DOF
       on avatar to improve retargeting quality.\n\t'Upper_Leg_L' has scale animation
@@ -87,6 +97,12 @@ ModelImporter:
       has scale animation that will be discarded.\n\t'Upper_Leg_R' has scale animation
       that will be discarded.\n\t'Lower_Leg_R' has scale animation that will be discarded.\n\t'Foot_R'
       has scale animation that will be discarded.\n\nClip 'Single_Slash' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'Upper_Leg_L' has scale animation
+      that will be discarded.\n\t'Lower_Leg_L' has scale animation that will be discarded.\n\t'Foot_L'
+      has scale animation that will be discarded.\n\t'Upper_Leg_R' has scale animation
+      that will be discarded.\n\t'Lower_Leg_R' has scale animation that will be discarded.\n\t'Foot_R'
+      has scale animation that will be discarded.\n\nClip 'TripleSlash' has import
       animation warnings that might lower retargeting quality:\nNote: Activate translation
       DOF on avatar to improve retargeting quality.\n\t'Upper_Leg_L' has scale animation
       that will be discarded.\n\t'Lower_Leg_L' has scale animation that will be discarded.\n\t'Foot_L'
@@ -605,10 +621,10 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Single_Slash
+      name: Slash1
       takeName: Single_Slash
       firstFrame: 0
-      lastFrame: 24
+      lastFrame: 20
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -635,7 +651,77 @@ ModelImporter:
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
-      - time: 0.7939189
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_001
+        weight: 1
+      - path: Armature_001/Root
+        weight: 1
+      - path: Armature_001/Root/Hip
+        weight: 1
+      - path: Armature_001/Root/Hip/Spine
+        weight: 1
+      - path: Armature_001/Root/Hip/Spine/Head
+        weight: 1
+      - path: Armature_001/Root/Hip/Spine/Upper_Arm_L
+        weight: 1
+      - path: Armature_001/Root/Hip/Spine/Upper_Arm_L/Lower_Arm_L
+        weight: 1
+      - path: Armature_001/Root/Hip/Spine/Upper_Arm_L/Lower_Arm_L/Hand_L
+        weight: 1
+      - path: Armature_001/Root/Hip/Spine/Upper_Arm_R
+        weight: 1
+      - path: Armature_001/Root/Hip/Spine/Upper_Arm_R/Lower_Arm_R
+        weight: 1
+      - path: Armature_001/Root/Hip/Spine/Upper_Arm_R/Lower_Arm_R/Hand_R
+        weight: 1
+      - path: Armature_001/Root/Hip/Upper_Leg_L
+        weight: 1
+      - path: Armature_001/Root/Hip/Upper_Leg_L/Lower_Leg_L
+        weight: 1
+      - path: Armature_001/Root/Hip/Upper_Leg_L/Lower_Leg_L/Foot_L
+        weight: 1
+      - path: Armature_001/Root/Hip/Upper_Leg_L/Lower_Leg_L/Foot_L/Toes_L
+        weight: 1
+      - path: Armature_001/Root/Hip/Upper_Leg_R
+        weight: 1
+      - path: Armature_001/Root/Hip/Upper_Leg_R/Lower_Leg_R
+        weight: 1
+      - path: Armature_001/Root/Hip/Upper_Leg_R/Lower_Leg_R/Foot_R
+        weight: 1
+      - path: Armature_001/Root/Hip/Upper_Leg_R/Lower_Leg_R/Foot_R/Toes_R
+        weight: 1
+      - path: objMF000F
+        weight: 0
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Slash1R
+      takeName: Single_Slash
+      firstFrame: 20
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.472973
         functionName: SheathSword
         data: 
         objectReferenceParameter: {instanceID: 0}
@@ -684,6 +770,238 @@ ModelImporter:
       - path: Armature_001/Root/Hip/Upper_Leg_R/Lower_Leg_R/Foot_R/Toes_R
         weight: 1
       - path: objMF000F
+        weight: 0
+      - path: Sword_Mesh
+        weight: 0
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Slash2
+      takeName: DoubleSlash
+      firstFrame: 20
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_001
+        weight: 1
+      - path: Armature_001/Root
+        weight: 1
+      - path: Armature_001/Root/Hip
+        weight: 1
+      - path: Armature_001/Root/Hip/Spine
+        weight: 1
+      - path: Armature_001/Root/Hip/Spine/Head
+        weight: 1
+      - path: Armature_001/Root/Hip/Spine/Upper_Arm_L
+        weight: 1
+      - path: Armature_001/Root/Hip/Spine/Upper_Arm_L/Lower_Arm_L
+        weight: 1
+      - path: Armature_001/Root/Hip/Spine/Upper_Arm_L/Lower_Arm_L/Hand_L
+        weight: 1
+      - path: Armature_001/Root/Hip/Spine/Upper_Arm_R
+        weight: 1
+      - path: Armature_001/Root/Hip/Spine/Upper_Arm_R/Lower_Arm_R
+        weight: 1
+      - path: Armature_001/Root/Hip/Spine/Upper_Arm_R/Lower_Arm_R/Hand_R
+        weight: 1
+      - path: Armature_001/Root/Hip/Upper_Leg_L
+        weight: 1
+      - path: Armature_001/Root/Hip/Upper_Leg_L/Lower_Leg_L
+        weight: 1
+      - path: Armature_001/Root/Hip/Upper_Leg_L/Lower_Leg_L/Foot_L
+        weight: 1
+      - path: Armature_001/Root/Hip/Upper_Leg_L/Lower_Leg_L/Foot_L/Toes_L
+        weight: 1
+      - path: Armature_001/Root/Hip/Upper_Leg_R
+        weight: 1
+      - path: Armature_001/Root/Hip/Upper_Leg_R/Lower_Leg_R
+        weight: 1
+      - path: Armature_001/Root/Hip/Upper_Leg_R/Lower_Leg_R/Foot_R
+        weight: 1
+      - path: Armature_001/Root/Hip/Upper_Leg_R/Lower_Leg_R/Foot_R/Toes_R
+        weight: 1
+      - path: objMF000F
+        weight: 0
+      - path: Sword_Mesh
+        weight: 0
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Slash2R
+      takeName: DoubleSlash
+      firstFrame: 29
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.5405406
+        functionName: SheathSword
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_001
+        weight: 1
+      - path: Armature_001/Root
+        weight: 1
+      - path: Armature_001/Root/Hip
+        weight: 1
+      - path: Armature_001/Root/Hip/Spine
+        weight: 1
+      - path: Armature_001/Root/Hip/Spine/Head
+        weight: 1
+      - path: Armature_001/Root/Hip/Spine/Upper_Arm_L
+        weight: 1
+      - path: Armature_001/Root/Hip/Spine/Upper_Arm_L/Lower_Arm_L
+        weight: 1
+      - path: Armature_001/Root/Hip/Spine/Upper_Arm_L/Lower_Arm_L/Hand_L
+        weight: 1
+      - path: Armature_001/Root/Hip/Spine/Upper_Arm_R
+        weight: 1
+      - path: Armature_001/Root/Hip/Spine/Upper_Arm_R/Lower_Arm_R
+        weight: 1
+      - path: Armature_001/Root/Hip/Spine/Upper_Arm_R/Lower_Arm_R/Hand_R
+        weight: 1
+      - path: Armature_001/Root/Hip/Upper_Leg_L
+        weight: 1
+      - path: Armature_001/Root/Hip/Upper_Leg_L/Lower_Leg_L
+        weight: 1
+      - path: Armature_001/Root/Hip/Upper_Leg_L/Lower_Leg_L/Foot_L
+        weight: 1
+      - path: Armature_001/Root/Hip/Upper_Leg_L/Lower_Leg_L/Foot_L/Toes_L
+        weight: 1
+      - path: Armature_001/Root/Hip/Upper_Leg_R
+        weight: 1
+      - path: Armature_001/Root/Hip/Upper_Leg_R/Lower_Leg_R
+        weight: 1
+      - path: Armature_001/Root/Hip/Upper_Leg_R/Lower_Leg_R/Foot_R
+        weight: 1
+      - path: Armature_001/Root/Hip/Upper_Leg_R/Lower_Leg_R/Foot_R/Toes_R
+        weight: 1
+      - path: objMF000F
+        weight: 0
+      - path: Sword_Mesh
+        weight: 0
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: TripleSlash
+      takeName: TripleSlash
+      firstFrame: 29
+      lastFrame: 54
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.82432425
+        functionName: SheathSword
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_001
+        weight: 1
+      - path: Armature_001/Root
+        weight: 1
+      - path: Armature_001/Root/Hip
+        weight: 1
+      - path: Armature_001/Root/Hip/Spine
+        weight: 1
+      - path: Armature_001/Root/Hip/Spine/Head
+        weight: 1
+      - path: Armature_001/Root/Hip/Spine/Upper_Arm_L
+        weight: 1
+      - path: Armature_001/Root/Hip/Spine/Upper_Arm_L/Lower_Arm_L
+        weight: 1
+      - path: Armature_001/Root/Hip/Spine/Upper_Arm_L/Lower_Arm_L/Hand_L
+        weight: 1
+      - path: Armature_001/Root/Hip/Spine/Upper_Arm_R
+        weight: 1
+      - path: Armature_001/Root/Hip/Spine/Upper_Arm_R/Lower_Arm_R
+        weight: 1
+      - path: Armature_001/Root/Hip/Spine/Upper_Arm_R/Lower_Arm_R/Hand_R
+        weight: 1
+      - path: Armature_001/Root/Hip/Upper_Leg_L
+        weight: 1
+      - path: Armature_001/Root/Hip/Upper_Leg_L/Lower_Leg_L
+        weight: 1
+      - path: Armature_001/Root/Hip/Upper_Leg_L/Lower_Leg_L/Foot_L
+        weight: 1
+      - path: Armature_001/Root/Hip/Upper_Leg_L/Lower_Leg_L/Foot_L/Toes_L
+        weight: 1
+      - path: Armature_001/Root/Hip/Upper_Leg_R
+        weight: 1
+      - path: Armature_001/Root/Hip/Upper_Leg_R/Lower_Leg_R
+        weight: 1
+      - path: Armature_001/Root/Hip/Upper_Leg_R/Lower_Leg_R/Foot_R
+        weight: 1
+      - path: Armature_001/Root/Hip/Upper_Leg_R/Lower_Leg_R/Foot_R/Toes_R
+        weight: 1
+      - path: objMF000F
+        weight: 0
+      - path: Sword_Mesh
         weight: 0
       maskType: 3
       maskSource: {instanceID: 0}

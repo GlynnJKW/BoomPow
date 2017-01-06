@@ -69,7 +69,7 @@ public class PlayerController : MonoBehaviour {
         animator.SetFloat("speedPercent", animationSpeedPercent, speedSmoothTime, Time.deltaTime);
 
         if (Input.GetMouseButton(0)){
-            animator.SetFloat("speedPercent", -1, 0-, Time.deltaTime);
+            animator.SetFloat("speedPercent", -1, 0, Time.deltaTime);
         }
 
     }		
