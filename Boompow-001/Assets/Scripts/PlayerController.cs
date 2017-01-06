@@ -3,8 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour {
-	
-	public float walkSpeed = 6;
+
+    public GameObject Sword;
+    public GameObject Scabbard;
+    public GameObject Rhand;
+    public GameObject Lhand;
+
+    public float walkSpeed = 6;
 	public float runSpeed = 6;
     public float gravity = -12;
     public float jumpHeight = 1;
@@ -46,10 +51,26 @@ public class PlayerController : MonoBehaviour {
             Jump();
         }
 
+
+
+        /*
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            GrabSword();
+        }
+        else
+        {
+            SheathSword();
+        }
+        */
+
         // animator
         float animationSpeedPercent = ((running) ? currentSpeed / runSpeed : currentSpeed / walkSpeed * .5f);
         animator.SetFloat("speedPercent", animationSpeedPercent, speedSmoothTime, Time.deltaTime);
 
+        if (Input.GetMouseButton(0)){
+            animator.SetFloat("speedPercent", -1, 0-, Time.deltaTime);
+        }
 
     }		
 
@@ -88,6 +109,7 @@ public class PlayerController : MonoBehaviour {
             velocityY = jumpVelocity;
         }
     }
+
     float GetModifiedSmoothTime(float smoothTime)
     {
         if (controller.isGrounded)
@@ -100,5 +122,20 @@ public class PlayerController : MonoBehaviour {
         }
         return smoothTime / airControlPercent;
     }
-        
+
+    void GrabSword()
+    {
+        Sword.gameObject.transform.parent = Rhand.transform;
+        Sword.gameObject.transform.localRotation = Quaternion.identity;
+        Sword.gameObject.transform.localPosition = Vector3.zero;
+    }
+
+    void SheathSword()
+    {
+        Sword.gameObject.transform.parent = Scabbard.transform;
+        Sword.gameObject.transform.localRotation = Quaternion.identity;
+        Sword.gameObject.transform.localPosition = Vector3.zero;
+
+    }
+
 }

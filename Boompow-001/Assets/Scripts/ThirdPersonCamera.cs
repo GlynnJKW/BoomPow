@@ -13,7 +13,7 @@ public class ThirdPersonCamera : MonoBehaviour {
      float cameraDistanceMax = 5f;
      float cameraDistanceMin = 1f;
      float cameraDistance = 2f;
-     float scrollSpeed = 1f;
+     float scrollSpeed = -1f;
 //
     public float rotationSmoothTime = .12f;
     Vector3 rotationSmoothVelocity;
