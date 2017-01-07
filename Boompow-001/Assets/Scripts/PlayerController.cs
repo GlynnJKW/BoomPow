@@ -39,16 +39,30 @@ public class PlayerController : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
+
+        Vector3 fwd = Camera.main.transform.forward;
+        fwd.y = 0;
+        transform.rotation = Quaternion.LookRotation(fwd);
+
         // input
         Vector2 input = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         Vector2 inputDir = input.normalized;
             bool running = Input.GetKey(KeyCode.LeftShift);
-        
-        Move(inputDir, running);
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetMouseButton(0))
         {
-            Jump();
+            animator.SetBool("Attacking", true);
+        }
+        else
+        {
+            animator.SetBool("Attacking", false);
+
+            Move(inputDir, running);
+
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                Jump();
+            }
         }
 
 
@@ -66,28 +80,30 @@ public class PlayerController : MonoBehaviour {
 
         // animator
         float animationSpeedPercent = ((running) ? currentSpeed / runSpeed : currentSpeed / walkSpeed * .5f);
-        animator.SetFloat("speedPercent", 1-animationSpeedPercent, speedSmoothTime, Time.deltaTime);
+        animator.SetFloat("SpeedX", inputDir.x * (animationSpeedPercent), speedSmoothTime, Time.deltaTime);
+        animator.SetFloat("SpeedY", inputDir.y * (animationSpeedPercent), speedSmoothTime, Time.deltaTime);
 
-        if (Input.GetMouseButton(0)){
-            animator.SetFloat("speedPercent", -1, 0, Time.deltaTime);
-        }
+
 
     }		
 
     void Move(Vector2 inputDir, bool running)
     {
+        /*
         if (inputDir != Vector2.zero)
         {
             float targetRotation = Mathf.Atan2(inputDir.x, inputDir.y) * Mathf.Rad2Deg + cameraT.eulerAngles.y;
             transform.eulerAngles = Vector3.up * Mathf.SmoothDampAngle(transform.eulerAngles.y, targetRotation, ref turnSmoothVelocity, GetModifiedSmoothTime(turnSmoothTime));
         }
+        */
+        
 
         
         float targetSpeed = ((running) ? runSpeed : walkSpeed) * inputDir.magnitude;
         currentSpeed = Mathf.SmoothDamp(currentSpeed, targetSpeed, ref speedSmoothVelocity, GetModifiedSmoothTime(speedSmoothTime));
 
         velocityY += Time.deltaTime * gravity;
-        Vector3 velocity = transform.forward * currentSpeed + Vector3.up * velocityY;
+        Vector3 velocity = transform.forward * currentSpeed * inputDir.y + transform.right * currentSpeed * inputDir.x + Vector3.up * velocityY;
 
         controller.Move(velocity * Time.deltaTime);
         currentSpeed = new Vector2(controller.velocity.x, controller.velocity.z).magnitude;
