@@ -49,34 +49,28 @@ public class PlayerController : MonoBehaviour {
         Vector2 inputDir = input.normalized;
             bool running = Input.GetKey(KeyCode.LeftShift);
 
-        if (Input.GetMouseButton(0))
+
+        if (Input.GetMouseButton(1))
         {
-            animator.SetBool("Attacking", true);
+            animator.SetBool("Stunned", true);
         }
         else
         {
-            animator.SetBool("Attacking", false);
-
-            Move(inputDir, running);
-
-            if (Input.GetKeyDown(KeyCode.Space))
+            animator.SetBool("Stunned", false);
+            if (Input.GetMouseButton(0))
             {
-                Jump();
+                animator.SetBool("Attacking", true);
+            }
+            else
+            {
+                animator.SetBool("Attacking", false);
+                Move(inputDir, running);
+                if (Input.GetKeyDown(KeyCode.Space))
+                {
+                    Jump();
+                }
             }
         }
-
-
-
-        /*
-        if (Input.GetKey(KeyCode.LeftShift))
-        {
-            GrabSword();
-        }
-        else
-        {
-            SheathSword();
-        }
-        */
 
         // animator
         float animationSpeedPercent = ((running) ? currentSpeed / runSpeed : currentSpeed / walkSpeed * .5f);
