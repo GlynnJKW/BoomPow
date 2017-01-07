@@ -1,45 +1,758 @@
-Mono path[0] = 'C:/Users/Kirra/Documents/GitHub/BoomPow/Boompow-001/Build002_Data/Managed'
-Mono path[1] = 'C:/Users/Kirra/Documents/GitHub/BoomPow/Boompow-001/Build002_Data/Mono'
-Mono config path = 'C:/Users/Kirra/Documents/GitHub/BoomPow/Boompow-001/Build002_Data/Mono/etc'
-PlayerConnection initialized from C:/Users/Kirra/Documents/GitHub/BoomPow/Boompow-001/Build002_Data (debug = 0)
-PlayerConnection initialized network socket : 0.0.0.0 55057
-Multi-casting "[IP] 10.0.0.79 [Port] 55057 [Flags] 2 [Guid] 977107372 [EditorId] 2540054484 [Version] 1048832 [Id] WindowsPlayer(kirras-new-pc) [Debug] 0" to [225.0.0.222:54997]...
-Started listening to [0.0.0.0:55057]
-PlayerConnection already initialized - listening to [0.0.0.0:55057]
+Mono path[0] = 'F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Build002_Data/Managed'
+Mono path[1] = 'F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Build002_Data/Mono'
+Mono config path = 'F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Build002_Data/Mono/etc'
+PlayerConnection initialized from F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Build002_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55047
+Multi-casting "[IP] 192.168.1.66 [Port] 55047 [Flags] 2 [Guid] 1232783322 [EditorId] 1351465303 [Version] 1048832 [Id] WindowsPlayer(DESKTOP-T8VG8Q4) [Debug] 0" to [225.0.0.222:54997]...
+Started listening to [0.0.0.0:55047]
+PlayerConnection already initialized - listening to [0.0.0.0:55047]
 Initialize engine version: 5.5.0f3 (38b4efef76f0)
 GfxDevice: creating device client; threaded=1
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce GTX 560 (ID=0x1201)
+    Renderer: NVIDIA GeForce GTX 980 (ID=0x13c0)
     Vendor:   NVIDIA
-    VRAM:     1999 MB
-    Driver:   21.21.13.7633
+    VRAM:     3072 MB
+    Driver:   21.21.13.6909
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\Kirra\Documents\GitHub\BoomPow\Boompow-001\Build002_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\Kirra\Documents\GitHub\BoomPow\Boompow-001\Build002_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\Kirra\Documents\GitHub\BoomPow\Boompow-001\Build002_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
-Loading C:\Users\Kirra\Documents\GitHub\BoomPow\Boompow-001\Build002_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
-Platform assembly: C:\Users\Kirra\Documents\GitHub\BoomPow\Boompow-001\Build002_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\Kirra\Documents\GitHub\BoomPow\Boompow-001\Build002_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\Kirra\Documents\GitHub\BoomPow\Boompow-001\Build002_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\Kirra\Documents\GitHub\BoomPow\Boompow-001\Build002_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Users\Kirra\Documents\GitHub\BoomPow\Boompow-001\Build002_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\Kirra\Documents\GitHub\BoomPow\Boompow-001\Build002_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: C:\Users\Kirra\Documents\GitHub\BoomPow\Boompow-001\Build002_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
-Loading C:\Users\Kirra\Documents\GitHub\BoomPow\Boompow-001\Build002_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-- Completed reload, in  0.150 seconds
-Platform assembly: C:\Users\Kirra\Documents\GitHub\BoomPow\Boompow-001\Build002_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: C:\Users\Kirra\Documents\GitHub\BoomPow\Boompow-001\Build002_Data\Managed\System.dll (this message is harmless)
-desktop: 1600x900 60Hz; virtual: 1600x900 at 0,0
+Platform assembly: F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Build002_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Build002_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Build002_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Build002_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Build002_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Build002_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Build002_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Build002_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Build002_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Build002_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Build002_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Build002_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.024 seconds
+Platform assembly: F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Build002_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Build002_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 3840x1089 at -1920,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.075443 ms
+UnloadTime: 0.916806 ms
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 2810 -> priority: 1 
-  Thread -> id: 1788 -> priority: 1 
+  Thread -> id: 4544 -> priority: 1 
+  Thread -> id: 4548 -> priority: 1 
 NullReferenceException: Object reference not set to an instance of an object
-  at PlayerSetup.Start () [0x0001e] in C:\Users\Kirra\Documents\GitHub\BoomPow\Boompow-001\Assets\Scripts\PlayerSetup.cs:21 
+  at PlayerSetup.Start () [0x0001e] in F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\PlayerSetup.cs:21 
  
-(Filename: C:/Users/Kirra/Documents/GitHub/BoomPow/Boompow-001/Assets/Scripts/PlayerSetup.cs Line: 21)
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/PlayerSetup.cs Line: 21)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Hit: RiggedJinactions(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:OnTriggerEnter(Collider) (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:28)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 28)
+
+Log: connection {1} has been disconnected by timeout; address {::ffff:127.0.0.1:50112}
+ServerDisconnected due to error: Timeout
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+UnityEngine.Networking.NetworkManager:OnServerDisconnect(NetworkConnection) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:998)
+UnityEngine.Networking.NetworkManager:OnServerDisconnectInternal(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:846)
+UnityEngine.Networking.NetworkConnection:InvokeHandler(Int16, NetworkReader, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:217)
+UnityEngine.Networking.NetworkConnection:InvokeHandlerNoData(Int16) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:199)
+UnityEngine.Networking.NetworkServer:OnDisconnected(NetworkConnection) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:729)
+UnityEngine.Networking.ServerSimpleWrapper:OnDisconnected(NetworkConnection) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1845)
+UnityEngine.Networking.NetworkServerSimple:HandleDisconnect(Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:364)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:254)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:705)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:655)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1072)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkManager.cs Line: 998)
 
