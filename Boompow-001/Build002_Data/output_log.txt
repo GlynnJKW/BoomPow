@@ -1,0 +1,67 @@
+Mono path[0] = 'C:/Users/Kirra/Downloads/BoomPow-masterrer/BoomPow-master/Boompow-001/Build002_Data/Managed'
+Mono path[1] = 'C:/Users/Kirra/Downloads/BoomPow-masterrer/BoomPow-master/Boompow-001/Build002_Data/Mono'
+Mono config path = 'C:/Users/Kirra/Downloads/BoomPow-masterrer/BoomPow-master/Boompow-001/Build002_Data/Mono/etc'
+PlayerConnection initialized from C:/Users/Kirra/Downloads/BoomPow-masterrer/BoomPow-master/Boompow-001/Build002_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55126
+Multi-casting "[IP] 10.0.0.79 [Port] 55126 [Flags] 2 [Guid] 3689722392 [EditorId] 3822313859 [Version] 1048832 [Id] WindowsPlayer(kirras-new-pc) [Debug] 0" to [225.0.0.222:54997]...
+Started listening to [0.0.0.0:55126]
+PlayerConnection already initialized - listening to [0.0.0.0:55126]
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 560 (ID=0x1201)
+    Vendor:   NVIDIA
+    VRAM:     1999 MB
+    Driver:   21.21.13.7633
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Kirra\Downloads\BoomPow-masterrer\BoomPow-master\Boompow-001\Build002_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Kirra\Downloads\BoomPow-masterrer\BoomPow-master\Boompow-001\Build002_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Kirra\Downloads\BoomPow-masterrer\BoomPow-master\Boompow-001\Build002_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Kirra\Downloads\BoomPow-masterrer\BoomPow-master\Boompow-001\Build002_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Kirra\Downloads\BoomPow-masterrer\BoomPow-master\Boompow-001\Build002_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Kirra\Downloads\BoomPow-masterrer\BoomPow-master\Boompow-001\Build002_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Kirra\Downloads\BoomPow-masterrer\BoomPow-master\Boompow-001\Build002_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Kirra\Downloads\BoomPow-masterrer\BoomPow-master\Boompow-001\Build002_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Kirra\Downloads\BoomPow-masterrer\BoomPow-master\Boompow-001\Build002_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Kirra\Downloads\BoomPow-masterrer\BoomPow-master\Boompow-001\Build002_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Kirra\Downloads\BoomPow-masterrer\BoomPow-master\Boompow-001\Build002_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\Kirra\Downloads\BoomPow-masterrer\BoomPow-master\Boompow-001\Build002_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.132 seconds
+Platform assembly: C:\Users\Kirra\Downloads\BoomPow-masterrer\BoomPow-master\Boompow-001\Build002_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Kirra\Downloads\BoomPow-masterrer\BoomPow-master\Boompow-001\Build002_Data\Managed\System.dll (this message is harmless)
+desktop: 1600x900 60Hz; virtual: 1600x900 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.095329 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 3218 -> priority: 1 
+  Thread -> id: 2b14 -> priority: 1 
+MatchMakingClient ListMatches :https://mm.unet.unity3d.com/json/reply/ListMatchRequest
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Networking.Match.NetworkMatch:ListMatches(ListMatchRequest, DataResponseDelegate`1) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:315)
+UnityEngine.Networking.Match.NetworkMatch:ListMatches(Int32, Int32, String, Boolean, Int32, Int32, DataResponseDelegate`1) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:302)
+UnityEngine.Networking.NetworkManagerHUD:OnGUI() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManagerHUD.cs:201)
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Networking/Managed/MatchMakingClient.cs Line: 315)
+
+MatchMakingClient Join :https://mm.unet.unity3d.com/json/reply/JoinMatchRequest
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Networking.Match.NetworkMatch:JoinMatch(JoinMatchRequest, DataResponseDelegate`1) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:193)
+UnityEngine.Networking.Match.NetworkMatch:JoinMatch(NetworkID, String, String, String, Int32, Int32, DataResponseDelegate`1) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:180)
+UnityEngine.Networking.NetworkManagerHUD:OnGUI() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManagerHUD.cs:213)
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Networking/Managed/MatchMakingClient.cs Line: 193)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerSetup.Start () [0x0001e] in C:\Users\Kirra\Downloads\BoomPow-masterrer\BoomPow-master\Boompow-001\Assets\Scripts\PlayerSetup.cs:21 
+ 
+(Filename: C:/Users/Kirra/Downloads/BoomPow-masterrer/BoomPow-master/Boompow-001/Assets/Scripts/PlayerSetup.cs Line: 21)
+
