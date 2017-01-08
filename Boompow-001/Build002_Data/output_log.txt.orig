@@ -1,0 +1,1239 @@
+Mono path[0] = 'F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Build002_Data/Managed'
+Mono path[1] = 'F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Build002_Data/Mono'
+Mono config path = 'F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Build002_Data/Mono/etc'
+PlayerConnection initialized from F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Build002_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55230
+Multi-casting "[IP] 192.168.1.66 [Port] 55230 [Flags] 2 [Guid] 1643697661 [EditorId] 2820102220 [Version] 1048832 [Id] WindowsPlayer(DESKTOP-T8VG8Q4) [Debug] 0" to [225.0.0.222:54997]...
+Started listening to [0.0.0.0:55230]
+PlayerConnection already initialized - listening to [0.0.0.0:55230]
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 980 (ID=0x13c0)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+    Driver:   21.21.13.6909
+Begin MonoManager ReloadAssembly
+<<<<<<< HEAD
+Platform assembly: C:\Users\Kirra\Documents\GitHub\BoomPow\Boompow-001\Build002_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Kirra\Documents\GitHub\BoomPow\Boompow-001\Build002_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Kirra\Documents\GitHub\BoomPow\Boompow-001\Build002_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Kirra\Documents\GitHub\BoomPow\Boompow-001\Build002_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Kirra\Documents\GitHub\BoomPow\Boompow-001\Build002_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Kirra\Documents\GitHub\BoomPow\Boompow-001\Build002_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Kirra\Documents\GitHub\BoomPow\Boompow-001\Build002_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Kirra\Documents\GitHub\BoomPow\Boompow-001\Build002_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Kirra\Documents\GitHub\BoomPow\Boompow-001\Build002_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Kirra\Documents\GitHub\BoomPow\Boompow-001\Build002_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Kirra\Documents\GitHub\BoomPow\Boompow-001\Build002_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\Kirra\Documents\GitHub\BoomPow\Boompow-001\Build002_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.126 seconds
+Platform assembly: C:\Users\Kirra\Documents\GitHub\BoomPow\Boompow-001\Build002_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Kirra\Documents\GitHub\BoomPow\Boompow-001\Build002_Data\Managed\System.dll (this message is harmless)
+desktop: 1600x900 60Hz; virtual: 1600x900 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 3.522052 ms
+=======
+Platform assembly: F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Build002_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Build002_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Build002_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Build002_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Build002_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Build002_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Build002_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Build002_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Build002_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Build002_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Build002_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Build002_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.187 seconds
+Platform assembly: F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Build002_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Build002_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 3840x1089 at -1920,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.975566 ms
+>>>>>>> be92ce8c15f332fc4643c88fb4fa02c705468c45
+NetworkManager created singleton (DontDestroyOnLoad)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Networking.NetworkManager:InitializeSingleton() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:194)
+UnityEngine.Networking.NetworkManager:Awake() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:173)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkManager.cs Line: 194)
+
+NetworkManager StartMatchMaker
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Networking.NetworkManager:StartMatchMaker() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:1172)
+HostGame:Start() (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\HostGame.cs:18)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkManager.cs Line: 1172)
+
+SetMatchHost:https://mm.unet.unity3d.com:443
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Networking.NetworkManager:SetMatchHost(String, Int32, Boolean) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:1222)
+UnityEngine.Networking.NetworkManager:StartMatchMaker() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:1173)
+HostGame:Start() (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\HostGame.cs:18)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkManager.cs Line: 1222)
+
+MatchMakingClient ListMatches :https://mm.unet.unity3d.com/json/reply/ListMatchRequest
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Networking.Match.NetworkMatch:ListMatches(ListMatchRequest, DataResponseDelegate`1) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:315)
+UnityEngine.Networking.Match.NetworkMatch:ListMatches(Int32, Int32, String, Boolean, Int32, Int32, DataResponseDelegate`1) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:302)
+JoinGame:RefreshRoomList() (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\JoinGame.cs:38)
+JoinGame:Start() (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\JoinGame.cs:31)
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Networking/Managed/MatchMakingClient.cs Line: 315)
+
+Setting up 2 worker threads for Enlighten.
+<<<<<<< HEAD
+  Thread -> id: 37c0 -> priority: 1 
+  Thread -> id: 23f4 -> priority: 1 
+Creating Room: gsgsd with room for 6 players.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+MatchMakingClient Create :https://mm.unet.unity3d.com/json/reply/CreateMatchRequest
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NetworkManager OnMatchCreate Success:True, ExtendedInfo:, matchInfo:4503599629072224 @ 52.71.166.171:9999 [21365,True]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NetworkServer Created version Current
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NetworkServerSimple initialize.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Server Host Slot Id: 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Relay Slot Id: 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+RegisterHandlerSafe id:35 handler:OnClientReadyMessage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+RegisterHandlerSafe id:5 handler:OnCommandMessage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+RegisterHandlerSafe id:6 handler:HandleTransform
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+RegisterHandlerSafe id:16 handler:HandleChildTransform
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+RegisterHandlerSafe id:38 handler:OnRemovePlayerMessage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+RegisterHandlerSafe id:40 handler:OnAnimationServerMessage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+RegisterHandlerSafe id:41 handler:OnAnimationParametersServerMessage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+RegisterHandlerSafe id:42 handler:OnAnimationTriggerServerMessage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+RegisterHandlerSafe id:17 handler:OnFragment
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+RegisterHandler id:32 handler:OnServerConnectInternal
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+RegisterHandler id:33 handler:OnServerDisconnectInternal
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+RegisterHandler replacing 35
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+RegisterHandler id:35 handler:OnServerReadyMessageInternal
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+RegisterHandler id:37 handler:OnServerAddPlayerMessageInternal
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+RegisterHandler replacing 38
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+RegisterHandler id:38 handler:OnServerRemovePlayerMessageInternal
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+RegisterHandler id:34 handler:OnServerErrorInternal
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NetworkManager StartServer port:7777
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ServerChangeScene Good
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Server.SendToAll msgType:39
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NetworkManager StartHost port:7777
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Client created version Current
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NetworkManager:OnServerConnectInternal
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+RegisterHandlerSafe id:1 handler:OnLocalClientObjectDestroy
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+RegisterHandlerSafe id:13 handler:OnLocalClientObjectHide
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+RegisterHandlerSafe id:3 handler:OnLocalClientObjectSpawn
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+RegisterHandlerSafe id:10 handler:OnLocalClientObjectSpawnScene
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+RegisterHandlerSafe id:15 handler:OnClientAuthority
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+RegisterHandlerSafe id:2 handler:OnRPCMessage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+RegisterHandlerSafe id:7 handler:OnSyncEventMessage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+RegisterHandlerSafe id:42 handler:OnAnimationTriggerClientMessage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+RegisterHandlerSafe id:14 handler:OnCRC
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+RegisterHandlerSafe id:17 handler:OnFragment
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+RegisterHandler id:32 handler:OnClientConnectInternal
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+RegisterHandler id:33 handler:OnClientDisconnectInternal
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+RegisterHandler id:36 handler:OnClientNotReadyMessageInternal
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+RegisterHandler id:34 handler:OnClientErrorInternal
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+RegisterHandler id:39 handler:OnClientSceneInternal
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Registering prefab 'RiggedJinactions' as asset:d880204799e931247918283a79050523
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NetworkManager:OnClientSceneInternal
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NetworkManager:OnClientConnectInternal
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+UnloadTime: 3.077827 ms
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 564.
+Total: 0.466998 ms (FindLiveObjects: 0.039130 ms CreateObjectMapping: 0.019885 ms MarkObjects: 0.328438 ms  DeleteObjects: 0.079222 ms)
+=======
+  Thread -> id: 4cb0 -> priority: 1 
+  Thread -> id: 1680 -> priority: 1 
+Creating Room: asdasd with room for 6 players.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HostGame:CreateRoom() (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\HostGame.cs:31)
+UnityEngine.Events.InvokableCall:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:153)
+UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:634)
+UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:769)
+UnityEngine.Events.UnityEvent:Invoke() (at C:\buildslave\unity\build\Runtime\Export\UnityEvent_0.cs:53)
+UnityEngine.UI.Button:Press() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:35)
+UnityEngine.UI.Button:OnPointerClick(PointerEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:44)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:52)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:269)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:531)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:430)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:410)
+UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:184)
+UnityEngine.EventSystems.EventSystem:Update() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\EventSystem.cs:287)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/HostGame.cs Line: 31)
+
+MatchMakingClient Create :https://mm.unet.unity3d.com/json/reply/CreateMatchRequest
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Networking.Match.NetworkMatch:CreateMatch(CreateMatchRequest, DataResponseDelegate`1) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:146)
+UnityEngine.Networking.Match.NetworkMatch:CreateMatch(String, UInt32, Boolean, String, String, String, Int32, Int32, DataResponseDelegate`1) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:133)
+HostGame:CreateRoom() (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\HostGame.cs:32)
+UnityEngine.Events.InvokableCall:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:153)
+UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:634)
+UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:769)
+UnityEngine.Events.UnityEvent:Invoke() (at C:\buildslave\unity\build\Runtime\Export\UnityEvent_0.cs:53)
+UnityEngine.UI.Button:Press() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:35)
+UnityEngine.UI.Button:OnPointerClick(PointerEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:44)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:52)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:269)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:531)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:430)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:410)
+UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:184)
+UnityEngine.EventSystems.EventSystem:Update() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\EventSystem.cs:287)
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Networking/Managed/MatchMakingClient.cs Line: 146)
+
+NetworkManager OnMatchCreate Success:True, ExtendedInfo:, matchInfo:4503599629073222 @ 52.71.166.171:9999 [21748,True]
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+UnityEngine.Debug:LogFormat(String, Object[])
+UnityEngine.Networking.NetworkManager:OnMatchCreate(Boolean, String, MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:1261)
+UnityEngine.Networking.Match.NetworkMatch:OnMatchCreate(CreateMatchResponse, DataResponseDelegate`1) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:175)
+UnityEngine.Networking.Match.<ProcessMatchResponse>c__Iterator0`2:MoveNext() (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkManager.cs Line: 1261)
+
+NetworkServer Created version Current
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Networking.NetworkServer:.ctor() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:98)
+UnityEngine.Networking.NetworkServer:get_instance() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:70)
+UnityEngine.Networking.NetworkServer:set_useWebSockets(Boolean) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:58)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo, ConnectionConfig, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:297)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:284)
+UnityEngine.Networking.NetworkManager:StartHost(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:526)
+UnityEngine.Networking.NetworkManager:OnMatchCreate(Boolean, String, MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:1264)
+UnityEngine.Networking.Match.NetworkMatch:OnMatchCreate(CreateMatchResponse, DataResponseDelegate`1) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:175)
+UnityEngine.Networking.Match.<ProcessMatchResponse>c__Iterator0`2:MoveNext() (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkServer.cs Line: 98)
+
+NetworkServerSimple initialize.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Networking.NetworkServerSimple:Initialize() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:73)
+UnityEngine.Networking.NetworkServerSimple:ListenRelay(String, Int32, NetworkID, SourceID, NodeID) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:142)
+UnityEngine.Networking.NetworkServer:InternalListenRelay(String, Int32, NetworkID, SourceID, NodeID) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:178)
+UnityEngine.Networking.NetworkServer:Listen(MatchInfo, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:152)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo, ConnectionConfig, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:322)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:284)
+UnityEngine.Networking.NetworkManager:StartHost(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:526)
+UnityEngine.Networking.NetworkManager:OnMatchCreate(Boolean, String, MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:1264)
+UnityEngine.Networking.Match.NetworkMatch:OnMatchCreate(CreateMatchResponse, DataResponseDelegate`1) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:175)
+UnityEngine.Networking.Match.<ProcessMatchResponse>c__Iterator0`2:MoveNext() (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkServerSimple.cs Line: 73)
+
+Server Host Slot Id: 0
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Networking.NetworkServerSimple:ListenRelay(String, Int32, NetworkID, SourceID, NodeID) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:145)
+UnityEngine.Networking.NetworkServer:InternalListenRelay(String, Int32, NetworkID, SourceID, NodeID) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:178)
+UnityEngine.Networking.NetworkServer:Listen(MatchInfo, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:152)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo, ConnectionConfig, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:322)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:284)
+UnityEngine.Networking.NetworkManager:StartHost(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:526)
+UnityEngine.Networking.NetworkManager:OnMatchCreate(Boolean, String, MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:1264)
+UnityEngine.Networking.Match.NetworkMatch:OnMatchCreate(CreateMatchResponse, DataResponseDelegate`1) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:175)
+UnityEngine.Networking.Match.<ProcessMatchResponse>c__Iterator0`2:MoveNext() (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkServerSimple.cs Line: 145)
+
+Relay Slot Id: 0
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Networking.NetworkServerSimple:ListenRelay(String, Int32, NetworkID, SourceID, NodeID) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:160)
+UnityEngine.Networking.NetworkServer:InternalListenRelay(String, Int32, NetworkID, SourceID, NodeID) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:178)
+UnityEngine.Networking.NetworkServer:Listen(MatchInfo, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:152)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo, ConnectionConfig, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:322)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:284)
+UnityEngine.Networking.NetworkManager:StartHost(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:526)
+UnityEngine.Networking.NetworkManager:OnMatchCreate(Boolean, String, MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:1264)
+UnityEngine.Networking.Match.NetworkMatch:OnMatchCreate(CreateMatchResponse, DataResponseDelegate`1) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:175)
+UnityEngine.Networking.Match.<ProcessMatchResponse>c__Iterator0`2:MoveNext() (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkServerSimple.cs Line: 160)
+
+RegisterHandlerSafe id:35 handler:OnClientReadyMessage
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Networking.NetworkMessageHandlers:RegisterHandlerSafe(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkMessageHandlers.cs:19)
+UnityEngine.Networking.NetworkServerSimple:RegisterHandlerSafe(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:172)
+UnityEngine.Networking.NetworkServer:RegisterMessageHandlers() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:157)
+UnityEngine.Networking.NetworkServer:InternalListenRelay(String, Int32, NetworkID, SourceID, NodeID) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:180)
+UnityEngine.Networking.NetworkServer:Listen(MatchInfo, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:152)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo, ConnectionConfig, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:322)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:284)
+UnityEngine.Networking.NetworkManager:StartHost(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:526)
+UnityEngine.Networking.NetworkManager:OnMatchCreate(Boolean, String, MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:1264)
+UnityEngine.Networking.Match.NetworkMatch:OnMatchCreate(CreateMatchResponse, DataResponseDelegate`1) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:175)
+UnityEngine.Networking.Match.<ProcessMatchResponse>c__Iterator0`2:MoveNext() (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkMessageHandlers.cs Line: 19)
+
+RegisterHandlerSafe id:5 handler:OnCommandMessage
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Networking.NetworkMessageHandlers:RegisterHandlerSafe(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkMessageHandlers.cs:19)
+UnityEngine.Networking.NetworkServerSimple:RegisterHandlerSafe(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:172)
+UnityEngine.Networking.NetworkServer:RegisterMessageHandlers() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:158)
+UnityEngine.Networking.NetworkServer:InternalListenRelay(String, Int32, NetworkID, SourceID, NodeID) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:180)
+UnityEngine.Networking.NetworkServer:Listen(MatchInfo, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:152)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo, ConnectionConfig, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:322)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:284)
+UnityEngine.Networking.NetworkManager:StartHost(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:526)
+UnityEngine.Networking.NetworkManager:OnMatchCreate(Boolean, String, MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:1264)
+UnityEngine.Networking.Match.NetworkMatch:OnMatchCreate(CreateMatchResponse, DataResponseDelegate`1) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:175)
+UnityEngine.Networking.Match.<ProcessMatchResponse>c__Iterator0`2:MoveNext() (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkMessageHandlers.cs Line: 19)
+
+RegisterHandlerSafe id:6 handler:HandleTransform
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Networking.NetworkMessageHandlers:RegisterHandlerSafe(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkMessageHandlers.cs:19)
+UnityEngine.Networking.NetworkServerSimple:RegisterHandlerSafe(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:172)
+UnityEngine.Networking.NetworkServer:RegisterMessageHandlers() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:159)
+UnityEngine.Networking.NetworkServer:InternalListenRelay(String, Int32, NetworkID, SourceID, NodeID) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:180)
+UnityEngine.Networking.NetworkServer:Listen(MatchInfo, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:152)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo, ConnectionConfig, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:322)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:284)
+UnityEngine.Networking.NetworkManager:StartHost(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:526)
+UnityEngine.Networking.NetworkManager:OnMatchCreate(Boolean, String, MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:1264)
+UnityEngine.Networking.Match.NetworkMatch:OnMatchCreate(CreateMatchResponse, DataResponseDelegate`1) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:175)
+UnityEngine.Networking.Match.<ProcessMatchResponse>c__Iterator0`2:MoveNext() (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkMessageHandlers.cs Line: 19)
+
+RegisterHandlerSafe id:16 handler:HandleChildTransform
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Networking.NetworkMessageHandlers:RegisterHandlerSafe(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkMessageHandlers.cs:19)
+UnityEngine.Networking.NetworkServerSimple:RegisterHandlerSafe(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:172)
+UnityEngine.Networking.NetworkServer:RegisterMessageHandlers() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:160)
+UnityEngine.Networking.NetworkServer:InternalListenRelay(String, Int32, NetworkID, SourceID, NodeID) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:180)
+UnityEngine.Networking.NetworkServer:Listen(MatchInfo, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:152)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo, ConnectionConfig, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:322)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:284)
+UnityEngine.Networking.NetworkManager:StartHost(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:526)
+UnityEngine.Networking.NetworkManager:OnMatchCreate(Boolean, String, MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:1264)
+UnityEngine.Networking.Match.NetworkMatch:OnMatchCreate(CreateMatchResponse, DataResponseDelegate`1) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:175)
+UnityEngine.Networking.Match.<ProcessMatchResponse>c__Iterator0`2:MoveNext() (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkMessageHandlers.cs Line: 19)
+
+RegisterHandlerSafe id:38 handler:OnRemovePlayerMessage
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Networking.NetworkMessageHandlers:RegisterHandlerSafe(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkMessageHandlers.cs:19)
+UnityEngine.Networking.NetworkServerSimple:RegisterHandlerSafe(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:172)
+UnityEngine.Networking.NetworkServer:RegisterMessageHandlers() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:161)
+UnityEngine.Networking.NetworkServer:InternalListenRelay(String, Int32, NetworkID, SourceID, NodeID) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:180)
+UnityEngine.Networking.NetworkServer:Listen(MatchInfo, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:152)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo, ConnectionConfig, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:322)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:284)
+UnityEngine.Networking.NetworkManager:StartHost(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:526)
+UnityEngine.Networking.NetworkManager:OnMatchCreate(Boolean, String, MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:1264)
+UnityEngine.Networking.Match.NetworkMatch:OnMatchCreate(CreateMatchResponse, DataResponseDelegate`1) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:175)
+UnityEngine.Networking.Match.<ProcessMatchResponse>c__Iterator0`2:MoveNext() (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkMessageHandlers.cs Line: 19)
+
+RegisterHandlerSafe id:40 handler:OnAnimationServerMessage
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Networking.NetworkMessageHandlers:RegisterHandlerSafe(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkMessageHandlers.cs:19)
+UnityEngine.Networking.NetworkServerSimple:RegisterHandlerSafe(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:172)
+UnityEngine.Networking.NetworkServer:RegisterMessageHandlers() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:162)
+UnityEngine.Networking.NetworkServer:InternalListenRelay(String, Int32, NetworkID, SourceID, NodeID) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:180)
+UnityEngine.Networking.NetworkServer:Listen(MatchInfo, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:152)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo, ConnectionConfig, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:322)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:284)
+UnityEngine.Networking.NetworkManager:StartHost(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:526)
+UnityEngine.Networking.NetworkManager:OnMatchCreate(Boolean, String, MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:1264)
+UnityEngine.Networking.Match.NetworkMatch:OnMatchCreate(CreateMatchResponse, DataResponseDelegate`1) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:175)
+UnityEngine.Networking.Match.<ProcessMatchResponse>c__Iterator0`2:MoveNext() (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkMessageHandlers.cs Line: 19)
+
+RegisterHandlerSafe id:41 handler:OnAnimationParametersServerMessage
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Networking.NetworkMessageHandlers:RegisterHandlerSafe(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkMessageHandlers.cs:19)
+UnityEngine.Networking.NetworkServerSimple:RegisterHandlerSafe(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:172)
+UnityEngine.Networking.NetworkServer:RegisterMessageHandlers() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:163)
+UnityEngine.Networking.NetworkServer:InternalListenRelay(String, Int32, NetworkID, SourceID, NodeID) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:180)
+UnityEngine.Networking.NetworkServer:Listen(MatchInfo, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:152)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo, ConnectionConfig, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:322)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:284)
+UnityEngine.Networking.NetworkManager:StartHost(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:526)
+UnityEngine.Networking.NetworkManager:OnMatchCreate(Boolean, String, MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:1264)
+UnityEngine.Networking.Match.NetworkMatch:OnMatchCreate(CreateMatchResponse, DataResponseDelegate`1) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:175)
+UnityEngine.Networking.Match.<ProcessMatchResponse>c__Iterator0`2:MoveNext() (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkMessageHandlers.cs Line: 19)
+
+RegisterHandlerSafe id:42 handler:OnAnimationTriggerServerMessage
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Networking.NetworkMessageHandlers:RegisterHandlerSafe(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkMessageHandlers.cs:19)
+UnityEngine.Networking.NetworkServerSimple:RegisterHandlerSafe(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:172)
+UnityEngine.Networking.NetworkServer:RegisterMessageHandlers() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:164)
+UnityEngine.Networking.NetworkServer:InternalListenRelay(String, Int32, NetworkID, SourceID, NodeID) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:180)
+UnityEngine.Networking.NetworkServer:Listen(MatchInfo, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:152)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo, ConnectionConfig, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:322)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:284)
+UnityEngine.Networking.NetworkManager:StartHost(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:526)
+UnityEngine.Networking.NetworkManager:OnMatchCreate(Boolean, String, MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:1264)
+UnityEngine.Networking.Match.NetworkMatch:OnMatchCreate(CreateMatchResponse, DataResponseDelegate`1) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:175)
+UnityEngine.Networking.Match.<ProcessMatchResponse>c__Iterator0`2:MoveNext() (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkMessageHandlers.cs Line: 19)
+
+RegisterHandlerSafe id:17 handler:OnFragment
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Networking.NetworkMessageHandlers:RegisterHandlerSafe(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkMessageHandlers.cs:19)
+UnityEngine.Networking.NetworkServerSimple:RegisterHandlerSafe(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:172)
+UnityEngine.Networking.NetworkServer:RegisterMessageHandlers() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:165)
+UnityEngine.Networking.NetworkServer:InternalListenRelay(String, Int32, NetworkID, SourceID, NodeID) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:180)
+UnityEngine.Networking.NetworkServer:Listen(MatchInfo, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:152)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo, ConnectionConfig, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:322)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:284)
+UnityEngine.Networking.NetworkManager:StartHost(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:526)
+UnityEngine.Networking.NetworkManager:OnMatchCreate(Boolean, String, MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:1264)
+UnityEngine.Networking.Match.NetworkMatch:OnMatchCreate(CreateMatchResponse, DataResponseDelegate`1) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:175)
+UnityEngine.Networking.Match.<ProcessMatchResponse>c__Iterator0`2:MoveNext() (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkMessageHandlers.cs Line: 19)
+
+RegisterHandler id:32 handler:OnServerConnectInternal
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Networking.NetworkMessageHandlers:RegisterHandler(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkMessageHandlers.cs:48)
+UnityEngine.Networking.NetworkServerSimple:RegisterHandler(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:177)
+UnityEngine.Networking.NetworkServer:RegisterHandler(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:795)
+UnityEngine.Networking.NetworkManager:RegisterServerMessages() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:257)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo, ConnectionConfig, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:349)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:284)
+UnityEngine.Networking.NetworkManager:StartHost(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:526)
+UnityEngine.Networking.NetworkManager:OnMatchCreate(Boolean, String, MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:1264)
+UnityEngine.Networking.Match.NetworkMatch:OnMatchCreate(CreateMatchResponse, DataResponseDelegate`1) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:175)
+UnityEngine.Networking.Match.<ProcessMatchResponse>c__Iterator0`2:MoveNext() (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkMessageHandlers.cs Line: 48)
+
+RegisterHandler id:33 handler:OnServerDisconnectInternal
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Networking.NetworkMessageHandlers:RegisterHandler(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkMessageHandlers.cs:48)
+UnityEngine.Networking.NetworkServerSimple:RegisterHandler(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:177)
+UnityEngine.Networking.NetworkServer:RegisterHandler(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:795)
+UnityEngine.Networking.NetworkManager:RegisterServerMessages() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:258)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo, ConnectionConfig, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:349)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:284)
+UnityEngine.Networking.NetworkManager:StartHost(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:526)
+UnityEngine.Networking.NetworkManager:OnMatchCreate(Boolean, String, MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:1264)
+UnityEngine.Networking.Match.NetworkMatch:OnMatchCreate(CreateMatchResponse, DataResponseDelegate`1) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:175)
+UnityEngine.Networking.Match.<ProcessMatchResponse>c__Iterator0`2:MoveNext() (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkMessageHandlers.cs Line: 48)
+
+RegisterHandler replacing 35
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Networking.NetworkMessageHandlers:RegisterHandler(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkMessageHandlers.cs:44)
+UnityEngine.Networking.NetworkServerSimple:RegisterHandler(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:177)
+UnityEngine.Networking.NetworkServer:RegisterHandler(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:795)
+UnityEngine.Networking.NetworkManager:RegisterServerMessages() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:259)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo, ConnectionConfig, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:349)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:284)
+UnityEngine.Networking.NetworkManager:StartHost(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:526)
+UnityEngine.Networking.NetworkManager:OnMatchCreate(Boolean, String, MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:1264)
+UnityEngine.Networking.Match.NetworkMatch:OnMatchCreate(CreateMatchResponse, DataResponseDelegate`1) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:175)
+UnityEngine.Networking.Match.<ProcessMatchResponse>c__Iterator0`2:MoveNext() (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkMessageHandlers.cs Line: 44)
+
+RegisterHandler id:35 handler:OnServerReadyMessageInternal
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Networking.NetworkMessageHandlers:RegisterHandler(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkMessageHandlers.cs:48)
+UnityEngine.Networking.NetworkServerSimple:RegisterHandler(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:177)
+UnityEngine.Networking.NetworkServer:RegisterHandler(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:795)
+UnityEngine.Networking.NetworkManager:RegisterServerMessages() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:259)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo, ConnectionConfig, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:349)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:284)
+UnityEngine.Networking.NetworkManager:StartHost(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:526)
+UnityEngine.Networking.NetworkManager:OnMatchCreate(Boolean, String, MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:1264)
+UnityEngine.Networking.Match.NetworkMatch:OnMatchCreate(CreateMatchResponse, DataResponseDelegate`1) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:175)
+UnityEngine.Networking.Match.<ProcessMatchResponse>c__Iterator0`2:MoveNext() (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkMessageHandlers.cs Line: 48)
+
+RegisterHandler id:37 handler:OnServerAddPlayerMessageInternal
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Networking.NetworkMessageHandlers:RegisterHandler(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkMessageHandlers.cs:48)
+UnityEngine.Networking.NetworkServerSimple:RegisterHandler(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:177)
+UnityEngine.Networking.NetworkServer:RegisterHandler(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:795)
+UnityEngine.Networking.NetworkManager:RegisterServerMessages() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:260)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo, ConnectionConfig, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:349)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:284)
+UnityEngine.Networking.NetworkManager:StartHost(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:526)
+UnityEngine.Networking.NetworkManager:OnMatchCreate(Boolean, String, MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:1264)
+UnityEngine.Networking.Match.NetworkMatch:OnMatchCreate(CreateMatchResponse, DataResponseDelegate`1) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:175)
+UnityEngine.Networking.Match.<ProcessMatchResponse>c__Iterator0`2:MoveNext() (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkMessageHandlers.cs Line: 48)
+
+RegisterHandler replacing 38
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Networking.NetworkMessageHandlers:RegisterHandler(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkMessageHandlers.cs:44)
+UnityEngine.Networking.NetworkServerSimple:RegisterHandler(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:177)
+UnityEngine.Networking.NetworkServer:RegisterHandler(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:795)
+UnityEngine.Networking.NetworkManager:RegisterServerMessages() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:261)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo, ConnectionConfig, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:349)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:284)
+UnityEngine.Networking.NetworkManager:StartHost(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:526)
+UnityEngine.Networking.NetworkManager:OnMatchCreate(Boolean, String, MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:1264)
+UnityEngine.Networking.Match.NetworkMatch:OnMatchCreate(CreateMatchResponse, DataResponseDelegate`1) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:175)
+UnityEngine.Networking.Match.<ProcessMatchResponse>c__Iterator0`2:MoveNext() (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkMessageHandlers.cs Line: 44)
+
+RegisterHandler id:38 handler:OnServerRemovePlayerMessageInternal
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Networking.NetworkMessageHandlers:RegisterHandler(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkMessageHandlers.cs:48)
+UnityEngine.Networking.NetworkServerSimple:RegisterHandler(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:177)
+UnityEngine.Networking.NetworkServer:RegisterHandler(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:795)
+UnityEngine.Networking.NetworkManager:RegisterServerMessages() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:261)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo, ConnectionConfig, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:349)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:284)
+UnityEngine.Networking.NetworkManager:StartHost(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:526)
+UnityEngine.Networking.NetworkManager:OnMatchCreate(Boolean, String, MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:1264)
+UnityEngine.Networking.Match.NetworkMatch:OnMatchCreate(CreateMatchResponse, DataResponseDelegate`1) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:175)
+UnityEngine.Networking.Match.<ProcessMatchResponse>c__Iterator0`2:MoveNext() (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkMessageHandlers.cs Line: 48)
+
+RegisterHandler id:34 handler:OnServerErrorInternal
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Networking.NetworkMessageHandlers:RegisterHandler(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkMessageHandlers.cs:48)
+UnityEngine.Networking.NetworkServerSimple:RegisterHandler(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:177)
+UnityEngine.Networking.NetworkServer:RegisterHandler(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:795)
+UnityEngine.Networking.NetworkManager:RegisterServerMessages() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:262)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo, ConnectionConfig, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:349)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:284)
+UnityEngine.Networking.NetworkManager:StartHost(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:526)
+UnityEngine.Networking.NetworkManager:OnMatchCreate(Boolean, String, MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:1264)
+UnityEngine.Networking.Match.NetworkMatch:OnMatchCreate(CreateMatchResponse, DataResponseDelegate`1) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:175)
+UnityEngine.Networking.Match.<ProcessMatchResponse>c__Iterator0`2:MoveNext() (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkMessageHandlers.cs Line: 48)
+
+NetworkManager StartServer port:7777
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo, ConnectionConfig, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:351)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:284)
+UnityEngine.Networking.NetworkManager:StartHost(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:526)
+UnityEngine.Networking.NetworkManager:OnMatchCreate(Boolean, String, MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:1264)
+UnityEngine.Networking.Match.NetworkMatch:OnMatchCreate(CreateMatchResponse, DataResponseDelegate`1) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:175)
+UnityEngine.Networking.Match.<ProcessMatchResponse>c__Iterator0`2:MoveNext() (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkManager.cs Line: 351)
+
+ServerChangeScene Good
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Networking.NetworkManager:ServerChangeScene(String) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:633)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo, ConnectionConfig, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:358)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:284)
+UnityEngine.Networking.NetworkManager:StartHost(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:526)
+UnityEngine.Networking.NetworkManager:OnMatchCreate(Boolean, String, MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:1264)
+UnityEngine.Networking.Match.NetworkMatch:OnMatchCreate(CreateMatchResponse, DataResponseDelegate`1) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:175)
+UnityEngine.Networking.Match.<ProcessMatchResponse>c__Iterator0`2:MoveNext() (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkManager.cs Line: 633)
+
+Server.SendToAll msgType:39
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Networking.NetworkServer:SendToAll(Int16, MessageBase) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:378)
+UnityEngine.Networking.NetworkManager:ServerChangeScene(String) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:640)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo, ConnectionConfig, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:358)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:284)
+UnityEngine.Networking.NetworkManager:StartHost(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:526)
+UnityEngine.Networking.NetworkManager:OnMatchCreate(Boolean, String, MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:1264)
+UnityEngine.Networking.Match.NetworkMatch:OnMatchCreate(CreateMatchResponse, DataResponseDelegate`1) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:175)
+UnityEngine.Networking.Match.<ProcessMatchResponse>c__Iterator0`2:MoveNext() (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkServer.cs Line: 378)
+
+NetworkManager StartHost port:7777
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Networking.NetworkManager:ConnectLocalClient() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:549)
+UnityEngine.Networking.NetworkManager:StartHost(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:528)
+UnityEngine.Networking.NetworkManager:OnMatchCreate(Boolean, String, MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:1264)
+UnityEngine.Networking.Match.NetworkMatch:OnMatchCreate(CreateMatchResponse, DataResponseDelegate`1) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:175)
+UnityEngine.Networking.Match.<ProcessMatchResponse>c__Iterator0`2:MoveNext() (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkManager.cs Line: 549)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+Client created version Current
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Networking.NetworkClient:.ctor() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:96)
+UnityEngine.Networking.LocalClient:.ctor() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:25)
+UnityEngine.Networking.ClientScene:ConnectLocalServer() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:299)
+UnityEngine.Networking.NetworkManager:ConnectLocalClient() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:551)
+UnityEngine.Networking.NetworkManager:StartHost(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:528)
+UnityEngine.Networking.NetworkManager:OnMatchCreate(Boolean, String, MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:1264)
+UnityEngine.Networking.Match.NetworkMatch:OnMatchCreate(CreateMatchResponse, DataResponseDelegate`1) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:175)
+UnityEngine.Networking.Match.<ProcessMatchResponse>c__Iterator0`2:MoveNext() (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkClient.cs Line: 96)
+
+NetworkManager:OnServerConnectInternal
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Networking.NetworkManager:OnServerConnectInternal(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:801)
+UnityEngine.Networking.NetworkConnection:InvokeHandler(Int16, NetworkReader, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:217)
+UnityEngine.Networking.NetworkConnection:InvokeHandlerNoData(Int16) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:199)
+UnityEngine.Networking.NetworkServer:AddLocalClient(LocalClient) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:320)
+UnityEngine.Networking.LocalClient:InternalConnectLocalServer(Boolean) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:54)
+UnityEngine.Networking.ClientScene:ConnectLocalServer() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:301)
+UnityEngine.Networking.NetworkManager:ConnectLocalClient() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:551)
+UnityEngine.Networking.NetworkManager:StartHost(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:528)
+UnityEngine.Networking.NetworkManager:OnMatchCreate(Boolean, String, MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:1264)
+UnityEngine.Networking.Match.NetworkMatch:OnMatchCreate(CreateMatchResponse, DataResponseDelegate`1) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:175)
+UnityEngine.Networking.Match.<ProcessMatchResponse>c__Iterator0`2:MoveNext() (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkManager.cs Line: 801)
+
+RegisterHandlerSafe id:1 handler:OnLocalClientObjectDestroy
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Networking.NetworkMessageHandlers:RegisterHandlerSafe(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkMessageHandlers.cs:19)
+UnityEngine.Networking.NetworkClient:RegisterHandlerSafe(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:899)
+UnityEngine.Networking.ClientScene:RegisterSystemHandlers(NetworkClient, Boolean) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:371)
+UnityEngine.Networking.NetworkClient:RegisterSystemHandlers(Boolean) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:881)
+UnityEngine.Networking.LocalClient:InternalConnectLocalServer(Boolean) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:58)
+UnityEngine.Networking.ClientScene:ConnectLocalServer() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:301)
+UnityEngine.Networking.NetworkManager:ConnectLocalClient() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:551)
+UnityEngine.Networking.NetworkManager:StartHost(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:528)
+UnityEngine.Networking.NetworkManager:OnMatchCreate(Boolean, String, MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:1264)
+UnityEngine.Networking.Match.NetworkMatch:OnMatchCreate(CreateMatchResponse, DataResponseDelegate`1) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:175)
+UnityEngine.Networking.Match.<ProcessMatchResponse>c__Iterator0`2:MoveNext() (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkMessageHandlers.cs Line: 19)
+
+RegisterHandlerSafe id:13 handler:OnLocalClientObjectHide
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Networking.NetworkMessageHandlers:RegisterHandlerSafe(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkMessageHandlers.cs:19)
+UnityEngine.Networking.NetworkClient:RegisterHandlerSafe(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:899)
+UnityEngine.Networking.ClientScene:RegisterSystemHandlers(NetworkClient, Boolean) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:372)
+UnityEngine.Networking.NetworkClient:RegisterSystemHandlers(Boolean) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:881)
+UnityEngine.Networking.LocalClient:InternalConnectLocalServer(Boolean) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:58)
+UnityEngine.Networking.ClientScene:ConnectLocalServer() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:301)
+UnityEngine.Networking.NetworkManager:ConnectLocalClient() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:551)
+UnityEngine.Networking.NetworkManager:StartHost(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:528)
+UnityEngine.Networking.NetworkManager:OnMatchCreate(Boolean, String, MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:1264)
+UnityEngine.Networking.Match.NetworkMatch:OnMatchCreate(CreateMatchResponse, DataResponseDelegate`1) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:175)
+UnityEngine.Networking.Match.<ProcessMatchResponse>c__Iterator0`2:MoveNext() (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkMessageHandlers.cs Line: 19)
+
+RegisterHandlerSafe id:3 handler:OnLocalClientObjectSpawn
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Networking.NetworkMessageHandlers:RegisterHandlerSafe(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkMessageHandlers.cs:19)
+UnityEngine.Networking.NetworkClient:RegisterHandlerSafe(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:899)
+UnityEngine.Networking.ClientScene:RegisterSystemHandlers(NetworkClient, Boolean) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:373)
+UnityEngine.Networking.NetworkClient:RegisterSystemHandlers(Boolean) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:881)
+UnityEngine.Networking.LocalClient:InternalConnectLocalServer(Boolean) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:58)
+UnityEngine.Networking.ClientScene:ConnectLocalServer() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:301)
+UnityEngine.Networking.NetworkManager:ConnectLocalClient() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:551)
+UnityEngine.Networking.NetworkManager:StartHost(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:528)
+UnityEngine.Networking.NetworkManager:OnMatchCreate(Boolean, String, MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:1264)
+UnityEngine.Networking.Match.NetworkMatch:OnMatchCreate(CreateMatchResponse, DataResponseDelegate`1) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:175)
+UnityEngine.Networking.Match.<ProcessMatchResponse>c__Iterator0`2:MoveNext() (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkMessageHandlers.cs Line: 19)
+
+RegisterHandlerSafe id:10 handler:OnLocalClientObjectSpawnScene
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Networking.NetworkMessageHandlers:RegisterHandlerSafe(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkMessageHandlers.cs:19)
+UnityEngine.Networking.NetworkClient:RegisterHandlerSafe(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:899)
+UnityEngine.Networking.ClientScene:RegisterSystemHandlers(NetworkClient, Boolean) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:374)
+UnityEngine.Networking.NetworkClient:RegisterSystemHandlers(Boolean) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:881)
+UnityEngine.Networking.LocalClient:InternalConnectLocalServer(Boolean) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:58)
+UnityEngine.Networking.ClientScene:ConnectLocalServer() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:301)
+UnityEngine.Networking.NetworkManager:ConnectLocalClient() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:551)
+UnityEngine.Networking.NetworkManager:StartHost(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:528)
+UnityEngine.Networking.NetworkManager:OnMatchCreate(Boolean, String, MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:1264)
+UnityEngine.Networking.Match.NetworkMatch:OnMatchCreate(CreateMatchResponse, DataResponseDelegate`1) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:175)
+UnityEngine.Networking.Match.<ProcessMatchResponse>c__Iterator0`2:MoveNext() (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkMessageHandlers.cs Line: 19)
+
+RegisterHandlerSafe id:15 handler:OnClientAuthority
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Networking.NetworkMessageHandlers:RegisterHandlerSafe(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkMessageHandlers.cs:19)
+UnityEngine.Networking.NetworkClient:RegisterHandlerSafe(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:899)
+UnityEngine.Networking.ClientScene:RegisterSystemHandlers(NetworkClient, Boolean) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:375)
+UnityEngine.Networking.NetworkClient:RegisterSystemHandlers(Boolean) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:881)
+UnityEngine.Networking.LocalClient:InternalConnectLocalServer(Boolean) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:58)
+UnityEngine.Networking.ClientScene:ConnectLocalServer() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:301)
+UnityEngine.Networking.NetworkManager:ConnectLocalClient() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:551)
+UnityEngine.Networking.NetworkManager:StartHost(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:528)
+UnityEngine.Networking.NetworkManager:OnMatchCreate(Boolean, String, MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:1264)
+UnityEngine.Networking.Match.NetworkMatch:OnMatchCreate(CreateMatchResponse, DataResponseDelegate`1) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:175)
+UnityEngine.Networking.Match.<ProcessMatchResponse>c__Iterator0`2:MoveNext() (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkMessageHandlers.cs Line: 19)
+
+RegisterHandlerSafe id:2 handler:OnRPCMessage
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Networking.NetworkMessageHandlers:RegisterHandlerSafe(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkMessageHandlers.cs:19)
+UnityEngine.Networking.NetworkClient:RegisterHandlerSafe(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:899)
+UnityEngine.Networking.ClientScene:RegisterSystemHandlers(NetworkClient, Boolean) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:393)
+UnityEngine.Networking.NetworkClient:RegisterSystemHandlers(Boolean) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:881)
+UnityEngine.Networking.LocalClient:InternalConnectLocalServer(Boolean) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:58)
+UnityEngine.Networking.ClientScene:ConnectLocalServer() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:301)
+UnityEngine.Networking.NetworkManager:ConnectLocalClient() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:551)
+UnityEngine.Networking.NetworkManager:StartHost(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:528)
+UnityEngine.Networking.NetworkManager:OnMatchCreate(Boolean, String, MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:1264)
+UnityEngine.Networking.Match.NetworkMatch:OnMatchCreate(CreateMatchResponse, DataResponseDelegate`1) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:175)
+UnityEngine.Networking.Match.<ProcessMatchResponse>c__Iterator0`2:MoveNext() (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkMessageHandlers.cs Line: 19)
+
+RegisterHandlerSafe id:7 handler:OnSyncEventMessage
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Networking.NetworkMessageHandlers:RegisterHandlerSafe(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkMessageHandlers.cs:19)
+UnityEngine.Networking.NetworkClient:RegisterHandlerSafe(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:899)
+UnityEngine.Networking.ClientScene:RegisterSystemHandlers(NetworkClient, Boolean) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:394)
+UnityEngine.Networking.NetworkClient:RegisterSystemHandlers(Boolean) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:881)
+UnityEngine.Networking.LocalClient:InternalConnectLocalServer(Boolean) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:58)
+UnityEngine.Networking.ClientScene:ConnectLocalServer() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:301)
+UnityEngine.Networking.NetworkManager:ConnectLocalClient() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:551)
+UnityEngine.Networking.NetworkManager:StartHost(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:528)
+UnityEngine.Networking.NetworkManager:OnMatchCreate(Boolean, String, MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:1264)
+UnityEngine.Networking.Match.NetworkMatch:OnMatchCreate(CreateMatchResponse, DataResponseDelegate`1) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:175)
+UnityEngine.Networking.Match.<ProcessMatchResponse>c__Iterator0`2:MoveNext() (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkMessageHandlers.cs Line: 19)
+
+RegisterHandlerSafe id:42 handler:OnAnimationTriggerClientMessage
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Networking.NetworkMessageHandlers:RegisterHandlerSafe(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkMessageHandlers.cs:19)
+UnityEngine.Networking.NetworkClient:RegisterHandlerSafe(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:899)
+UnityEngine.Networking.ClientScene:RegisterSystemHandlers(NetworkClient, Boolean) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:395)
+UnityEngine.Networking.NetworkClient:RegisterSystemHandlers(Boolean) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:881)
+UnityEngine.Networking.LocalClient:InternalConnectLocalServer(Boolean) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:58)
+UnityEngine.Networking.ClientScene:ConnectLocalServer() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:301)
+UnityEngine.Networking.NetworkManager:ConnectLocalClient() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:551)
+UnityEngine.Networking.NetworkManager:StartHost(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:528)
+UnityEngine.Networking.NetworkManager:OnMatchCreate(Boolean, String, MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:1264)
+UnityEngine.Networking.Match.NetworkMatch:OnMatchCreate(CreateMatchResponse, DataResponseDelegate`1) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:175)
+UnityEngine.Networking.Match.<ProcessMatchResponse>c__Iterator0`2:MoveNext() (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkMessageHandlers.cs Line: 19)
+
+RegisterHandlerSafe id:14 handler:OnCRC
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Networking.NetworkMessageHandlers:RegisterHandlerSafe(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkMessageHandlers.cs:19)
+UnityEngine.Networking.NetworkClient:RegisterHandlerSafe(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:899)
+UnityEngine.Networking.NetworkClient:RegisterSystemHandlers(Boolean) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:882)
+UnityEngine.Networking.LocalClient:InternalConnectLocalServer(Boolean) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:58)
+UnityEngine.Networking.ClientScene:ConnectLocalServer() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:301)
+UnityEngine.Networking.NetworkManager:ConnectLocalClient() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:551)
+UnityEngine.Networking.NetworkManager:StartHost(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:528)
+UnityEngine.Networking.NetworkManager:OnMatchCreate(Boolean, String, MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:1264)
+UnityEngine.Networking.Match.NetworkMatch:OnMatchCreate(CreateMatchResponse, DataResponseDelegate`1) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:175)
+UnityEngine.Networking.Match.<ProcessMatchResponse>c__Iterator0`2:MoveNext() (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkMessageHandlers.cs Line: 19)
+
+RegisterHandlerSafe id:17 handler:OnFragment
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Networking.NetworkMessageHandlers:RegisterHandlerSafe(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkMessageHandlers.cs:19)
+UnityEngine.Networking.NetworkClient:RegisterHandlerSafe(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:899)
+UnityEngine.Networking.NetworkClient:RegisterSystemHandlers(Boolean) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:883)
+UnityEngine.Networking.LocalClient:InternalConnectLocalServer(Boolean) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:58)
+UnityEngine.Networking.ClientScene:ConnectLocalServer() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:301)
+UnityEngine.Networking.NetworkManager:ConnectLocalClient() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:551)
+UnityEngine.Networking.NetworkManager:StartHost(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:528)
+UnityEngine.Networking.NetworkManager:OnMatchCreate(Boolean, String, MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:1264)
+UnityEngine.Networking.Match.NetworkMatch:OnMatchCreate(CreateMatchResponse, DataResponseDelegate`1) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:175)
+UnityEngine.Networking.Match.<ProcessMatchResponse>c__Iterator0`2:MoveNext() (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkMessageHandlers.cs Line: 19)
+
+RegisterHandler id:32 handler:OnClientConnectInternal
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Networking.NetworkMessageHandlers:RegisterHandler(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkMessageHandlers.cs:48)
+UnityEngine.Networking.NetworkClient:RegisterHandler(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:895)
+UnityEngine.Networking.NetworkManager:RegisterClientMessages(NetworkClient) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:369)
+UnityEngine.Networking.NetworkManager:ConnectLocalClient() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:552)
+UnityEngine.Networking.NetworkManager:StartHost(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:528)
+UnityEngine.Networking.NetworkManager:OnMatchCreate(Boolean, String, MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:1264)
+UnityEngine.Networking.Match.NetworkMatch:OnMatchCreate(CreateMatchResponse, DataResponseDelegate`1) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:175)
+UnityEngine.Networking.Match.<ProcessMatchResponse>c__Iterator0`2:MoveNext() (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkMessageHandlers.cs Line: 48)
+
+RegisterHandler id:33 handler:OnClientDisconnectInternal
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Networking.NetworkMessageHandlers:RegisterHandler(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkMessageHandlers.cs:48)
+UnityEngine.Networking.NetworkClient:RegisterHandler(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:895)
+UnityEngine.Networking.NetworkManager:RegisterClientMessages(NetworkClient) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:370)
+UnityEngine.Networking.NetworkManager:ConnectLocalClient() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:552)
+UnityEngine.Networking.NetworkManager:StartHost(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:528)
+UnityEngine.Networking.NetworkManager:OnMatchCreate(Boolean, String, MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:1264)
+UnityEngine.Networking.Match.NetworkMatch:OnMatchCreate(CreateMatchResponse, DataResponseDelegate`1) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:175)
+UnityEngine.Networking.Match.<ProcessMatchResponse>c__Iterator0`2:MoveNext() (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkMessageHandlers.cs Line: 48)
+
+RegisterHandler id:36 handler:OnClientNotReadyMessageInternal
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Networking.NetworkMessageHandlers:RegisterHandler(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkMessageHandlers.cs:48)
+UnityEngine.Networking.NetworkClient:RegisterHandler(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:895)
+UnityEngine.Networking.NetworkManager:RegisterClientMessages(NetworkClient) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:371)
+UnityEngine.Networking.NetworkManager:ConnectLocalClient() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:552)
+UnityEngine.Networking.NetworkManager:StartHost(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:528)
+UnityEngine.Networking.NetworkManager:OnMatchCreate(Boolean, String, MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:1264)
+UnityEngine.Networking.Match.NetworkMatch:OnMatchCreate(CreateMatchResponse, DataResponseDelegate`1) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:175)
+UnityEngine.Networking.Match.<ProcessMatchResponse>c__Iterator0`2:MoveNext() (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkMessageHandlers.cs Line: 48)
+
+RegisterHandler id:34 handler:OnClientErrorInternal
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Networking.NetworkMessageHandlers:RegisterHandler(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkMessageHandlers.cs:48)
+UnityEngine.Networking.NetworkClient:RegisterHandler(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:895)
+UnityEngine.Networking.NetworkManager:RegisterClientMessages(NetworkClient) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:372)
+UnityEngine.Networking.NetworkManager:ConnectLocalClient() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:552)
+UnityEngine.Networking.NetworkManager:StartHost(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:528)
+UnityEngine.Networking.NetworkManager:OnMatchCreate(Boolean, String, MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:1264)
+UnityEngine.Networking.Match.NetworkMatch:OnMatchCreate(CreateMatchResponse, DataResponseDelegate`1) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:175)
+UnityEngine.Networking.Match.<ProcessMatchResponse>c__Iterator0`2:MoveNext() (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkMessageHandlers.cs Line: 48)
+
+RegisterHandler id:39 handler:OnClientSceneInternal
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Networking.NetworkMessageHandlers:RegisterHandler(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkMessageHandlers.cs:48)
+UnityEngine.Networking.NetworkClient:RegisterHandler(Int16, NetworkMessageDelegate) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:895)
+UnityEngine.Networking.NetworkManager:RegisterClientMessages(NetworkClient) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:373)
+UnityEngine.Networking.NetworkManager:ConnectLocalClient() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:552)
+UnityEngine.Networking.NetworkManager:StartHost(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:528)
+UnityEngine.Networking.NetworkManager:OnMatchCreate(Boolean, String, MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:1264)
+UnityEngine.Networking.Match.NetworkMatch:OnMatchCreate(CreateMatchResponse, DataResponseDelegate`1) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:175)
+UnityEngine.Networking.Match.<ProcessMatchResponse>c__Iterator0`2:MoveNext() (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkMessageHandlers.cs Line: 48)
+
+Registering prefab 'RiggedJinactions' as asset:d880204799e931247918283a79050523
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Networking.NetworkScene:RegisterPrefab(GameObject) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkScene.cs:127)
+UnityEngine.Networking.ClientScene:RegisterPrefab(GameObject) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:425)
+UnityEngine.Networking.NetworkManager:RegisterClientMessages(NetworkClient) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:377)
+UnityEngine.Networking.NetworkManager:ConnectLocalClient() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:552)
+UnityEngine.Networking.NetworkManager:StartHost(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:528)
+UnityEngine.Networking.NetworkManager:OnMatchCreate(Boolean, String, MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:1264)
+UnityEngine.Networking.Match.NetworkMatch:OnMatchCreate(CreateMatchResponse, DataResponseDelegate`1) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:175)
+UnityEngine.Networking.Match.<ProcessMatchResponse>c__Iterator0`2:MoveNext() (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkScene.cs Line: 127)
+
+NetGroup event:ConnectEvent
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:218)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:705)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:655)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1072)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkServerSimple.cs Line: 218)
+
+NetGroup server connected
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:222)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:705)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:655)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1072)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkServerSimple.cs Line: 222)
+>>>>>>> be92ce8c15f332fc4643c88fb4fa02c705468c45
+
+NetworkManager:OnClientSceneInternal
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Networking.NetworkManager:OnClientSceneInternal(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:977)
+UnityEngine.Networking.NetworkConnection:InvokeHandler(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:228)
+UnityEngine.Networking.LocalClient:ProcessInternalMessages() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:142)
+UnityEngine.Networking.LocalClient:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:69)
+UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:950)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1073)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkManager.cs Line: 977)
+
+NetworkManager:OnClientConnectInternal
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Networking.NetworkManager:OnClientConnectInternal(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:911)
+UnityEngine.Networking.NetworkConnection:InvokeHandler(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:228)
+UnityEngine.Networking.LocalClient:ProcessInternalMessages() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:142)
+UnityEngine.Networking.LocalClient:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:69)
+UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:950)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1073)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkManager.cs Line: 911)
+
+UnloadTime: 3.230761 ms
+Sword Hitbox up
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SwordHitbox:Start() (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scripts\SwordHitbox.cs:11)
+ 
+(Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 11)
+
+System memory in use before: 23.8 MB.
+System memory in use after: 23.8 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 596.
+Total: 0.448267 ms (FindLiveObjects: 0.073898 ms CreateObjectMapping: 0.030534 ms MarkObjects: 0.322537 ms  DeleteObjects: 0.021040 ms)
+
