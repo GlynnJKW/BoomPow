@@ -42,7 +42,6 @@ public class PlayerController : MonoBehaviour {
 
         Vector3 fwd = Camera.main.transform.forward;
         fwd.y = 0;
-        transform.rotation = Quaternion.LookRotation(fwd);
 
         // input
         Vector2 input = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
@@ -56,15 +55,16 @@ public class PlayerController : MonoBehaviour {
         }
         else
         {
+            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(fwd), .1f);
             animator.SetBool("Stunned", false);
             if (Input.GetMouseButton(0))
             {
+                Move(Vector2.zero, false);
                 animator.SetBool("Attacking", true);
             }
             else
             {
                 animator.SetBool("Attacking", false);
-                Move(inputDir, running);
                 if (Input.GetKeyDown(KeyCode.Space))
                 {
                     Jump();
