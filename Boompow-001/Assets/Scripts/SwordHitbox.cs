@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class SwordHitbox : MonoBehaviour {
 
+    public GameObject player;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -16,10 +18,21 @@ public class SwordHitbox : MonoBehaviour {
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Enemy")
+        GameObject otherplayer = other.gameObject;
+        while(otherplayer != null)
         {
-            //Destroy(other.gameObject);
-            Debug.Log("Hit: " + other.gameObject.name);
+            if(otherplayer.tag != null && otherplayer.tag == "Player")
+            {
+                if(otherplayer != player)
+                {
+                    Debug.Log("Hit: " + otherplayer.gameObject.name);
+                }
+                break;
+            }
+            else
+            {
+                otherplayer = otherplayer.transform.parent.gameObject;
+            }
         }
     }
 }
