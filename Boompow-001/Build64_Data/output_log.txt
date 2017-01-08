@@ -2,10 +2,10 @@ Mono path[0] = 'F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Build64_Data/Manag
 Mono path[1] = 'F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Build64_Data/Mono'
 Mono config path = 'F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Build64_Data/Mono/etc'
 PlayerConnection initialized from F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Build64_Data (debug = 0)
-PlayerConnection initialized network socket : 0.0.0.0 55229
-Multi-casting "[IP] 192.168.1.66 [Port] 55229 [Flags] 2 [Guid] 1295046597 [EditorId] 2820102220 [Version] 1048832 [Id] WindowsPlayer(DESKTOP-T8VG8Q4) [Debug] 0" to [225.0.0.222:54997]...
-Started listening to [0.0.0.0:55229]
-PlayerConnection already initialized - listening to [0.0.0.0:55229]
+PlayerConnection initialized network socket : 0.0.0.0 55140
+Multi-casting "[IP] 192.168.1.66 [Port] 55140 [Flags] 2 [Guid] 203501330 [EditorId] 1461805724 [Version] 1048832 [Id] WindowsPlayer(DESKTOP-T8VG8Q4) [Debug] 0" to [225.0.0.222:54997]...
+Started listening to [0.0.0.0:55140]
+PlayerConnection already initialized - listening to [0.0.0.0:55140]
 Initialize engine version: 5.5.0f3 (38b4efef76f0)
 GfxDevice: creating device client; threaded=1
 Direct3D:
@@ -27,14 +27,14 @@ Platform assembly: F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Build64_Data\Ma
 Loading F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Build64_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Build64_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
 Loading F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Build64_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-- Completed reload, in  0.021 seconds
+- Completed reload, in  0.018 seconds
 Platform assembly: F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Build64_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Build64_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 3840x1089 at -1920,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 0.888068 ms
+UnloadTime: 0.793898 ms
 NetworkManager created singleton (DontDestroyOnLoad)
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
@@ -79,9 +79,9 @@ JoinGame:Start() (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\JoinGa
 (Filename: C:/buildslave/unity/build/Runtime/Networking/Managed/MatchMakingClient.cs Line: 315)
 
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 4b5c -> priority: 1 
-  Thread -> id: 2d3c -> priority: 1 
-Creating Room: asd with room for 6 players.
+  Thread -> id: 3850 -> priority: 1 
+  Thread -> id: 3b00 -> priority: 1 
+Creating Room: asdasdasd with room for 6 players.
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
@@ -127,7 +127,7 @@ UnityEngine.EventSystems.EventSystem:Update() (at C:\buildslave\unity\build\Exte
  
 (Filename: C:/buildslave/unity/build/Runtime/Networking/Managed/MatchMakingClient.cs Line: 146)
 
-NetworkManager OnMatchCreate Success:True, ExtendedInfo:, matchInfo:4503599629073339 @ 52.71.166.171:9999 [20895,True]
+NetworkManager OnMatchCreate Success:True, ExtendedInfo:, matchInfo:4503599629074934 @ 52.71.166.171:9999 [23164,True]
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:LogFormat(LogType, String, Object[])
@@ -996,8 +996,18 @@ UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unit
  
 (Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkManager.cs Line: 911)
 
-UnloadTime: 2.990333 ms
+UnloadTime: 2.751188 ms
 RegisterStartPosition:SpawnPoint01 (UnityEngine.Transform)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Networking.NetworkManager:RegisterStartPosition(Transform) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:767)
+UnityEngine.Networking.NetworkStartPosition:Awake() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkStartPosition.cs:13)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkManager.cs Line: 767)
+
+RegisterStartPosition:SpawnPoint02 (UnityEngine.Transform)
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
@@ -1016,9 +1026,9 @@ SwordHitbox:Start() (at F:\MYGEMES\BoomPow\BoomPow-master\Boompow-001\Assets\Scr
  
 (Filename: F:/MYGEMES/BoomPow/BoomPow-master/Boompow-001/Assets/Scripts/SwordHitbox.cs Line: 10)
 
-System memory in use before: 27.6 MB.
-System memory in use after: 26.7 MB.
+System memory in use before: 27.5 MB.
+System memory in use after: 26.8 MB.
 
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 596.
-Total: 0.355637 ms (FindLiveObjects: 0.031047 ms CreateObjectMapping: 0.013856 ms MarkObjects: 0.288667 ms  DeleteObjects: 0.017448 ms)
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 690.
+Total: 0.419529 ms (FindLiveObjects: 0.110078 ms CreateObjectMapping: 0.015652 ms MarkObjects: 0.271988 ms  DeleteObjects: 0.017961 ms)
 

@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour {
     public GameObject Rhand;
     public GameObject Lhand;
 
-    public float walkSpeed = 6;
+    public float walkSpeed = 2;
 	public float runSpeed = 6;
     public float gravity = -12;
     public float jumpHeight = 1;
@@ -23,6 +23,7 @@ public class PlayerController : MonoBehaviour {
     float speedSmoothVelocity;
     float currentSpeed;
     float velocityY;
+    bool stunned;
 
 	Animator animator;
     Transform cameraT;
@@ -33,37 +34,57 @@ public class PlayerController : MonoBehaviour {
 		animator = GetComponent<Animator> ();
         cameraT = Camera.main.transform;
         controller = GetComponent<CharacterController>();
-		
-	}
+    }
 
-    // Update is called once per frame
     void Update()
     {
+        if (!stunned)
+        {
+            Vector3 fwd = cameraT.forward;
+            fwd.y = 0;
+            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(fwd), .1f);
+        }
+    }
 
-        Vector3 fwd = Camera.main.transform.forward;
-        fwd.y = 0;
+    void FixedUpdate()
+    {
+
 
         // input
         Vector2 input = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         Vector2 inputDir = input.normalized;
             bool running = Input.GetKey(KeyCode.LeftShift);
+        DebugConsole.Clear();
+        DebugConsole.Log("Input: " + inputDir.ToString(), "normal");
+        DebugConsole.Log("Running: " + running.ToString(), "normal");
+
+
+        DebugConsole.Log("Animator: " + animator.ToString(), "normal");
+        DebugConsole.Log("Controller: " + controller.ToString(), "normal");
+        DebugConsole.Log("Controller velocity: " + controller.velocity.ToString(), "normal");
+        DebugConsole.Log("walkSpeed: " + walkSpeed.ToString(), "normal");
+        DebugConsole.Log("runSpeed: " + runSpeed.ToString(), "normal");
 
 
         if (Input.GetMouseButton(1))
         {
+            stunned = true;
+            DebugConsole.Log("RMB is down", "normal");
             animator.SetBool("Stunned", true);
         }
         else
         {
-            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(fwd), .1f);
+            stunned = false;
             animator.SetBool("Stunned", false);
             if (Input.GetMouseButton(0))
             {
+                DebugConsole.Log("LMB is down", "normal");
                 Move(Vector2.zero, false);
                 animator.SetBool("Attacking", true);
             }
             else
             {
+                Move(inputDir, running);
                 animator.SetBool("Attacking", false);
                 if (Input.GetKeyDown(KeyCode.Space))
                 {
@@ -77,8 +98,6 @@ public class PlayerController : MonoBehaviour {
         animator.SetFloat("SpeedX", inputDir.x * (animationSpeedPercent), speedSmoothTime, Time.deltaTime);
         animator.SetFloat("SpeedY", inputDir.y * (animationSpeedPercent), speedSmoothTime, Time.deltaTime);
 
-
-
     }		
 
     void Move(Vector2 inputDir, bool running)
@@ -90,14 +109,15 @@ public class PlayerController : MonoBehaviour {
             transform.eulerAngles = Vector3.up * Mathf.SmoothDampAngle(transform.eulerAngles.y, targetRotation, ref turnSmoothVelocity, GetModifiedSmoothTime(turnSmoothTime));
         }
         */
-        
 
-        
+
         float targetSpeed = ((running) ? runSpeed : walkSpeed) * inputDir.magnitude;
         currentSpeed = Mathf.SmoothDamp(currentSpeed, targetSpeed, ref speedSmoothVelocity, GetModifiedSmoothTime(speedSmoothTime));
 
         velocityY += Time.deltaTime * gravity;
         Vector3 velocity = transform.forward * currentSpeed * inputDir.y + transform.right * currentSpeed * inputDir.x + Vector3.up * velocityY;
+        DebugConsole.Log("Velocity: " + velocity.ToString(), "normal");
+        DebugConsole.Log("Time: " + Time.deltaTime.ToString(), "normal");
 
         controller.Move(velocity * Time.deltaTime);
         currentSpeed = new Vector2(controller.velocity.x, controller.velocity.z).magnitude;
