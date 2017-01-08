@@ -1,11 +1,3 @@
-Mono path[0] = 'C:/Users/Kirra/Documents/GitHub/BoomPow/Boompow-001/Build002_Data/Managed'
-Mono path[1] = 'C:/Users/Kirra/Documents/GitHub/BoomPow/Boompow-001/Build002_Data/Mono'
-Mono config path = 'C:/Users/Kirra/Documents/GitHub/BoomPow/Boompow-001/Build002_Data/Mono/etc'
-PlayerConnection initialized from C:/Users/Kirra/Documents/GitHub/BoomPow/Boompow-001/Build002_Data (debug = 0)
-PlayerConnection initialized network socket : 0.0.0.0 55057
-Multi-casting "[IP] 10.0.0.79 [Port] 55057 [Flags] 2 [Guid] 977107372 [EditorId] 2540054484 [Version] 1048832 [Id] WindowsPlayer(kirras-new-pc) [Debug] 0" to [225.0.0.222:54997]...
-Started listening to [0.0.0.0:55057]
-PlayerConnection already initialized - listening to [0.0.0.0:55057]
 Initialize engine version: 5.5.0f3 (38b4efef76f0)
 GfxDevice: creating device client; threaded=1
 Direct3D:
@@ -27,19 +19,48 @@ Platform assembly: C:\Users\Kirra\Documents\GitHub\BoomPow\Boompow-001\Build002_
 Loading C:\Users\Kirra\Documents\GitHub\BoomPow\Boompow-001\Build002_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: C:\Users\Kirra\Documents\GitHub\BoomPow\Boompow-001\Build002_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
 Loading C:\Users\Kirra\Documents\GitHub\BoomPow\Boompow-001\Build002_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-- Completed reload, in  0.150 seconds
+- Completed reload, in  0.035 seconds
 Platform assembly: C:\Users\Kirra\Documents\GitHub\BoomPow\Boompow-001\Build002_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\Kirra\Documents\GitHub\BoomPow\Boompow-001\Build002_Data\Managed\System.dll (this message is harmless)
-desktop: 1600x900 60Hz; virtual: 1600x900 at 0,0
+desktop: 1600x900 60Hz; virtual: 2828x900 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.075443 ms
-Setting up 2 worker threads for Enlighten.
-  Thread -> id: 2810 -> priority: 1 
-  Thread -> id: 1788 -> priority: 1 
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerSetup.Start () [0x0001e] in C:\Users\Kirra\Documents\GitHub\BoomPow\Boompow-001\Assets\Scripts\PlayerSetup.cs:21 
+UnloadTime: 2.465854 ms
+NetworkManager created singleton (DontDestroyOnLoad)
  
-(Filename: C:/Users/Kirra/Documents/GitHub/BoomPow/Boompow-001/Assets/Scripts/PlayerSetup.cs Line: 21)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NetworkManager StartMatchMaker
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+SetMatchHost:https://mm.unet.unity3d.com:443
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+MatchMakingClient ListMatches :https://mm.unet.unity3d.com/json/reply/ListMatchRequest
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at JoinGame.RefreshRoomList () [0x00000] in <filename unknown>:0 
+  at JoinGame.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 2d64 -> priority: 1 
+  Thread -> id: 26cc -> priority: 1 
+NullReferenceException: Object reference not set to an instance of an object
+  at JoinGame.OnMatchList (Boolean success, System.String extendedInfo, System.Collections.Generic.List`1 matches) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.Match.NetworkMatch.OnMatchList (UnityEngine.Networking.Match.ListMatchResponse response, UnityEngine.Networking.Match.DataResponseDelegate`1 userCallback) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.Match.NetworkMatch+<ProcessMatchResponse>c__Iterator0`2[UnityEngine.Networking.Match.ListMatchResponse,UnityEngine.Networking.Match.NetworkMatch+DataResponseDelegate`1[System.Collections.Generic.List`1[UnityEngine.Networking.Match.MatchInfoSnapshot]]].MoveNext () [0x00000] in <filename unknown>:0 
+  at UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NetworkManager destroyed
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
