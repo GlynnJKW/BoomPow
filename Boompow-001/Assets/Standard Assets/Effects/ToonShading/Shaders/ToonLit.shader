@@ -2,7 +2,9 @@ Shader "Toon/Lit" {
 	Properties {
 		_Color ("Main Color", Color) = (0.5,0.5,0.5,1)
 		_MainTex ("Base (RGB)", 2D) = "white" {}
-		_Ramp ("Toon Ramp (RGB)", 2D) = "gray" {} 
+		[HDR]_EmissionColor("Color", Color) = (0,0,0)
+		_EmissionMap("Emission", 2D) = "white" {}
+		_Ramp ("Toon Ramp (RGB)", 2D) = "gray" {}
 	}
 
 	SubShader {
@@ -34,6 +36,8 @@ inline half4 LightingToonRamp (SurfaceOutput s, half3 lightDir, half atten)
 
 
 sampler2D _MainTex;
+sampler2D _EmissionMap;
+float4 _EmissionColor;
 float4 _Color;
 
 struct Input {
@@ -44,6 +48,8 @@ void surf (Input IN, inout SurfaceOutput o) {
 	half4 c = tex2D(_MainTex, IN.uv_MainTex) * _Color;
 	o.Albedo = c.rgb;
 	o.Alpha = c.a;
+	half4 emission = tex2D(_EmissionMap, IN.uv_MainTex) * _EmissionColor;
+	o.Albedo += emission.rgb;
 }
 ENDCG
 
