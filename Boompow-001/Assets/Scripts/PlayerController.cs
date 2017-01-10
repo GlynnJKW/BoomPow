@@ -5,9 +5,13 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour {
 
     public GameObject Sword;
+    public MeleeWeaponTrail SwordTrail;
     public GameObject Scabbard;
     public GameObject Rhand;
     public GameObject Lhand;
+
+    public Material BaseEmission;
+    public Material GlowEmission;
 
     public float walkSpeed = 2;
 	public float runSpeed = 6;
@@ -166,6 +170,23 @@ public class PlayerController : MonoBehaviour {
         Sword.gameObject.transform.localRotation = Quaternion.identity;
         Sword.gameObject.transform.localPosition = Vector3.zero;
 
+    }
+
+    void SwordTrailEmission(float time)
+    {
+        SwordTrail.EmitTime = time;
+        SwordTrail.Emit = time > 0;
+    }
+
+    void Glow(bool on)
+    {
+        if (on)
+        {
+        }
+        else
+        {
+
+        }
     }
 
 }

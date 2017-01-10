@@ -4,6 +4,8 @@ Shader "Toon/Lit Outline" {
 		_OutlineColor ("Outline Color", Color) = (0,0,0,1)
 		_Outline ("Outline width", Range (.002, 0.03)) = .005
 		_MainTex ("Base (RGB)", 2D) = "white" {}
+		[HDR]_EmissionColor("Color", Color) = (0,0,0)
+		_EmissionMap("Emission", 2D) = "white" {}
 		_Ramp ("Toon Ramp (RGB)", 2D) = "gray" {} 
 	}
 
