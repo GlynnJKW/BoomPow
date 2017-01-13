@@ -19,14 +19,14 @@ Platform assembly: C:\Users\Kirra\Documents\GitHub\BoomPow\Boompow-001\Build002_
 Loading C:\Users\Kirra\Documents\GitHub\BoomPow\Boompow-001\Build002_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: C:\Users\Kirra\Documents\GitHub\BoomPow\Boompow-001\Build002_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
 Loading C:\Users\Kirra\Documents\GitHub\BoomPow\Boompow-001\Build002_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-- Completed reload, in  0.149 seconds
+- Completed reload, in  0.158 seconds
 Platform assembly: C:\Users\Kirra\Documents\GitHub\BoomPow\Boompow-001\Build002_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\Kirra\Documents\GitHub\BoomPow\Boompow-001\Build002_Data\Managed\System.dll (this message is harmless)
-desktop: 1600x900 60Hz; virtual: 1600x900 at 0,0
+desktop: 1600x900 60Hz; virtual: 2828x900 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.028294 ms
+UnloadTime: 1.178081 ms
 NetworkManager created singleton (DontDestroyOnLoad)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
@@ -44,9 +44,9 @@ MatchMakingClient ListMatches :https://mm.unet.unity3d.com/json/reply/ListMatchR
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 2108 -> priority: 1 
-  Thread -> id: 1e28 -> priority: 1 
-Creating Room: otay otay with room for 6 players.
+  Thread -> id: 268c -> priority: 1 
+  Thread -> id: 2060 -> priority: 1 
+Creating Room: test with room for 6 players.
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -54,7 +54,7 @@ MatchMakingClient Create :https://mm.unet.unity3d.com/json/reply/CreateMatchRequ
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-NetworkManager OnMatchCreate Success:True, ExtendedInfo:, matchInfo:4503599629115502 @ 52.87.26.226:9999 [7234,True]
+NetworkManager OnMatchCreate Success:True, ExtendedInfo:, matchInfo:4503599629430206 @ 52.87.26.226:9999 [33349,True]
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -186,7 +186,6 @@ RegisterHandlerSafe id:15 handler:OnClientAuthority
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
 RegisterHandlerSafe id:2 handler:OnRPCMessage
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
@@ -195,6 +194,7 @@ RegisterHandlerSafe id:7 handler:OnSyncEventMessage
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
 RegisterHandlerSafe id:42 handler:OnAnimationTriggerClientMessage
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
@@ -239,24 +239,67 @@ NetworkManager:OnClientConnectInternal
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-NetGroup event:ConnectEvent
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-NetGroup server connected
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-UnloadTime: 6.115561 ms
-RegisterStartPosition:SpawnPoint01 (UnityEngine.Transform)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
+UnloadTime: 3.552847 ms
 Sword Hitbox up
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 702.
-Total: 0.437810 ms (FindLiveObjects: 0.031753 ms CreateObjectMapping: 0.023093 ms MarkObjects: 0.320419 ms  DeleteObjects: 0.062223 ms)
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 790.
+Total: 0.490733 ms (FindLiveObjects: 0.036243 ms CreateObjectMapping: 0.027904 ms MarkObjects: 0.356663 ms  DeleteObjects: 0.069280 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerSetup.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Sword Hitbox up
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+MatchMakingClient DropConnection :https://mm.unet.unity3d.com/json/reply/DropConnectionRequest
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+MatchMakingClient DropConnection :https://mm.unet.unity3d.com/json/reply/DropConnectionRequest
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.749892 ms
+Multiple NetworkManagers detected in the scene. Only one NetworkManager can exist at a time. The duplicate NetworkManager will not be used.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 612.
+Total: 0.530505 ms (FindLiveObjects: 0.020206 ms CreateObjectMapping: 0.021489 ms MarkObjects: 0.351211 ms  DeleteObjects: 0.137277 ms)
+
+NetworkManager StartMatchMaker
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+SetMatchHost:https://mm.unet.unity3d.com:443
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+MatchMakingClient ListMatches :https://mm.unet.unity3d.com/json/reply/ListMatchRequest
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NetworkManager destroyed
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ClientChangeScene done readyCon:
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FinishLoadScene client is null
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NetworkManager destroyed
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
