@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BasicHitbox : MonoBehaviour {
+public class BasicHitbox : Hitbox {
 
-    private bool hit;
     [SerializeField]
     private float damage;
     [SerializeField]
@@ -12,7 +11,6 @@ public class BasicHitbox : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        hit = false;
 	}
 	
 	// Update is called once per frame
@@ -25,10 +23,7 @@ public class BasicHitbox : MonoBehaviour {
         
     }
 
-    public void resetHit()
-    {
-        hit = false;
-    }
+
 
     private void OnTriggerStay(Collider other)
     {

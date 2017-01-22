@@ -30,6 +30,15 @@ public class HitboxController : MonoBehaviour
     void DeactivateHitbox(int num)
     {
         hitboxes[num].SetActive(false);
-        hitboxes[num].GetComponent<BasicHitbox>().resetHit();
+        hitboxes[num].GetComponent<Hitbox>().resetHit();
+    }
+
+    void DeactivateAllHitboxes()
+    {
+        for(int i = 0; i < hitboxes.Length; ++i)
+        {
+            hitboxes[i].SetActive(false);
+            hitboxes[i].GetComponent<Hitbox>().resetHit();
+        }
     }
 }

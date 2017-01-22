@@ -22,4 +22,10 @@ public class BasicHurtbox : MonoBehaviour {
         Debug.Log("Hurtbox took damage: " + damage);
         player.SendMessage("TakeDamage", damage);
     }
+
+    void Stun(float stun)
+    {
+        Debug.Log("Hurtbox was stunned for: " + stun);
+        player.SendMessage("Stun", stun);
+    }
 }

@@ -67,6 +67,7 @@ ModelImporter:
     7400022: TripleSlash
     7400024: Sidestep
     7400026: Stunned
+    7400028: Jumpkick
     9500000: //RootNode
     13700000: objMF000F
   materials:
@@ -89,6 +90,12 @@ ModelImporter:
       has scale animation that will be discarded.\n\nClip 'DoubleSlash' has import
       animation warnings that might lower retargeting quality:\nNote: Activate translation
       DOF on avatar to improve retargeting quality.\n\t'Upper_Leg_L' has scale animation
+      that will be discarded.\n\t'Lower_Leg_L' has scale animation that will be discarded.\n\t'Foot_L'
+      has scale animation that will be discarded.\n\t'Upper_Leg_R' has scale animation
+      that will be discarded.\n\t'Lower_Leg_R' has scale animation that will be discarded.\n\t'Foot_R'
+      has scale animation that will be discarded.\n\nClip 'Jumpkick' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation DOF
+      on avatar to improve retargeting quality.\n\t'Upper_Leg_L' has scale animation
       that will be discarded.\n\t'Lower_Leg_L' has scale animation that will be discarded.\n\t'Foot_L'
       has scale animation that will be discarded.\n\t'Upper_Leg_R' has scale animation
       that will be discarded.\n\t'Lower_Leg_R' has scale animation that will be discarded.\n\t'Foot_R'
@@ -786,6 +793,20 @@ ModelImporter:
         floatParameter: -1
         intParameter: 0
         messageOptions: 0
+      - time: 0.64435136
+        functionName: ActivateHitbox
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 1
+        messageOptions: 0
+      - time: 0.8514643
+        functionName: DeactivateHitbox
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 1
+        messageOptions: 0
       transformMask:
       - path: 
         weight: 1
@@ -944,6 +965,20 @@ ModelImporter:
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
+      - time: 0.36610875
+        functionName: ActivateHitbox
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 2
+        messageOptions: 0
+      - time: 0.61297077
+        functionName: DeactivateHitbox
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 2
+        messageOptions: 0
       transformMask:
       - path: 
         weight: 1
@@ -1087,7 +1122,107 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: 0
+        functionName: DeactivateAllHitboxes
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0
+        functionName: SheathSword
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_001
+        weight: 1
+      - path: Armature_001/Root
+        weight: 1
+      - path: Armature_001/Root/Hip
+        weight: 1
+      - path: Armature_001/Root/Hip/Spine
+        weight: 1
+      - path: Armature_001/Root/Hip/Spine/Head
+        weight: 1
+      - path: Armature_001/Root/Hip/Spine/Upper_Arm_L
+        weight: 1
+      - path: Armature_001/Root/Hip/Spine/Upper_Arm_L/Lower_Arm_L
+        weight: 1
+      - path: Armature_001/Root/Hip/Spine/Upper_Arm_L/Lower_Arm_L/Hand_L
+        weight: 1
+      - path: Armature_001/Root/Hip/Spine/Upper_Arm_R
+        weight: 1
+      - path: Armature_001/Root/Hip/Spine/Upper_Arm_R/Lower_Arm_R
+        weight: 1
+      - path: Armature_001/Root/Hip/Spine/Upper_Arm_R/Lower_Arm_R/Hand_R
+        weight: 1
+      - path: Armature_001/Root/Hip/Upper_Leg_L
+        weight: 1
+      - path: Armature_001/Root/Hip/Upper_Leg_L/Lower_Leg_L
+        weight: 1
+      - path: Armature_001/Root/Hip/Upper_Leg_L/Lower_Leg_L/Foot_L
+        weight: 1
+      - path: Armature_001/Root/Hip/Upper_Leg_L/Lower_Leg_L/Foot_L/Toes_L
+        weight: 1
+      - path: Armature_001/Root/Hip/Upper_Leg_R
+        weight: 1
+      - path: Armature_001/Root/Hip/Upper_Leg_R/Lower_Leg_R
+        weight: 1
+      - path: Armature_001/Root/Hip/Upper_Leg_R/Lower_Leg_R/Foot_R
+        weight: 1
+      - path: Armature_001/Root/Hip/Upper_Leg_R/Lower_Leg_R/Foot_R/Toes_R
+        weight: 1
+      - path: objMF000F
+        weight: 0
+      - path: Sword_Mesh
+        weight: 0
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Jumpkick
+      takeName: Jumpkick
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.65899587
+        functionName: ActivateHitbox
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 3
+        messageOptions: 0
+      - time: 0.7217573
+        functionName: DeactivateHitbox
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 3
+        messageOptions: 0
       transformMask:
       - path: 
         weight: 1
