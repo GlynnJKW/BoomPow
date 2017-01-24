@@ -27,9 +27,12 @@ public class PlayerController : MonoBehaviour {
     float speedSmoothVelocity;
     float currentSpeed;
     float velocityY;
-    bool stunned;
+    public float stunTime;
+    bool runningWhenJumpkick = false;
+    bool justStunned = false;
 
-	Animator animator;
+
+    Animator animator;
     Transform cameraT;
     CharacterController controller;
 
@@ -38,26 +41,18 @@ public class PlayerController : MonoBehaviour {
 		animator = GetComponent<Animator> ();
         cameraT = Camera.main.transform;
         controller = GetComponent<CharacterController>();
+        //stunTime = 0;
     }
 
     void Update()
     {
-        if (!stunned)
-        {
-            Vector3 fwd = cameraT.forward;
-            fwd.y = 0;
-            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(fwd), .1f);
-        }
-    }
-
-    void FixedUpdate()
-    {
-
+        //Debug.Log(this.stunTime);
+        //Debug.Log(justStunned);
 
         // input
         Vector2 input = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         Vector2 inputDir = input.normalized;
-            bool running = Input.GetKey(KeyCode.LeftShift);
+        bool running = Input.GetKey(KeyCode.LeftShift);
         DebugConsole.Clear();
         DebugConsole.Log("Input: " + inputDir.ToString(), "normal");
         DebugConsole.Log("Running: " + running.ToString(), "normal");
@@ -69,17 +64,30 @@ public class PlayerController : MonoBehaviour {
         DebugConsole.Log("walkSpeed: " + walkSpeed.ToString(), "normal");
         DebugConsole.Log("runSpeed: " + runSpeed.ToString(), "normal");
 
-
-        if (Input.GetMouseButton(1))
+        if (stunTime > 0)
         {
-            stunned = true;
-            DebugConsole.Log("RMB is down", "normal");
+            Debug.Log("Should be stunned: " + stunTime);
             animator.SetBool("Stunned", true);
+            stunTime -= Time.deltaTime;
+            if (stunTime < 0.1f) stunTime = 0;
         }
         else
         {
-            stunned = false;
-            animator.SetBool("Stunned", false);
+
+            Vector3 fwd = cameraT.forward;
+            fwd.y = 0;
+            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(fwd), .1f);
+            if (Input.GetMouseButton(1))
+            {
+                DebugConsole.Log("RMB is down", "normal");
+                animator.SetBool("Ability1", true);
+                runningWhenJumpkick = running;
+            }
+            else
+            {
+                animator.SetBool("Ability1", false);
+            }
+
             if (Input.GetMouseButton(0))
             {
                 DebugConsole.Log("LMB is down", "normal");
@@ -88,12 +96,19 @@ public class PlayerController : MonoBehaviour {
             }
             else
             {
-                Move(inputDir, running);
-                animator.SetBool("Attacking", false);
-                if (Input.GetKeyDown(KeyCode.Space))
+                if (animator.GetCurrentAnimatorStateInfo(0).IsName("Jumpkick"))
                 {
-                    Jump();
+                    Move(new Vector2(0, 1), runningWhenJumpkick);
                 }
+                else
+                {
+                    Move(inputDir, running);
+                    if (Input.GetKeyDown(KeyCode.Space))
+                    {
+                        Jump();
+                    }
+                }
+                animator.SetBool("Attacking", false);
             }
         }
 
@@ -101,6 +116,7 @@ public class PlayerController : MonoBehaviour {
         float animationSpeedPercent = ((running) ? currentSpeed / runSpeed : currentSpeed / walkSpeed * .5f);
         animator.SetFloat("SpeedX", inputDir.x * (animationSpeedPercent), speedSmoothTime, Time.deltaTime);
         animator.SetFloat("SpeedY", inputDir.y * (animationSpeedPercent), speedSmoothTime, Time.deltaTime);
+        
 
     }		
 
@@ -187,6 +203,14 @@ public class PlayerController : MonoBehaviour {
         {
 
         }
+    }
+
+    public void Stun(float s)
+    {
+        Debug.Log("Player received stun of " + s);
+        this.stunTime += s;
+        Debug.Log(this.stunTime);
+        justStunned = true;
     }
 
 
