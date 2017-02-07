@@ -91,7 +91,7 @@ public class PlayerController : MonoBehaviour {
             if (Input.GetMouseButton(0))
             {
                 DebugConsole.Log("LMB is down", "normal");
-                Move(Vector2.zero, false);
+                Move(inputDir, running);
                 animator.SetBool("Attacking", true);
             }
             else
